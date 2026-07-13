@@ -7,6 +7,10 @@ const morningCount = document.querySelector("[data-morning-count]");
 const termOrb = document.querySelector("[data-term-orb]");
 const yearLabel = document.querySelector("[data-year]");
 const tickerTrack = document.querySelector("[data-ticker-track]");
+const latestDate = document.querySelector("[data-latest-date]");
+const latestCity = document.querySelector("[data-latest-city]");
+const latestTemp = document.querySelector("[data-latest-temp]");
+const latestSummary = document.querySelector("[data-latest-summary]");
 
 const goldenAngle = Math.PI * (3 - Math.sqrt(5));
 
@@ -243,6 +247,7 @@ async function loadBriefs() {
     const data = await response.json();
     const entries = Array.isArray(data.entries) ? data.entries : [];
     const morningBriefs = Array.isArray(data.morning_briefs) ? data.morning_briefs : [];
+    const latest = morningBriefs[0];
 
     if (updated) updated.textContent = data.updated || "Unknown";
     if (updated && data.updated) updated.dateTime = data.updated;
@@ -250,6 +255,10 @@ async function loadBriefs() {
     if (entryCount) entryCount.textContent = String(entries.length);
     if (morningCount) morningCount.textContent = String(morningBriefs.length);
     if (yearLabel) yearLabel.textContent = data.year || "2026";
+    if (latestDate && latest) latestDate.textContent = `${latest.date} · ${latest.weather?.city || "今日"}`;
+    if (latestCity && latest?.weather?.city) latestCity.textContent = latest.weather.city;
+    if (latestTemp && latest?.weather?.temperature) latestTemp.textContent = latest.weather.temperature;
+    if (latestSummary && latest?.summary) latestSummary.textContent = latest.summary;
 
     renderTerms(Array.isArray(data.year_terms) ? data.year_terms : []);
     renderTicker([...morningBriefs, ...entries]);

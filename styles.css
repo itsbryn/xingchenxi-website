@@ -8,7 +8,7 @@
   --blue-soft: #d8e8f7;
   --cyan: #7bc7d4;
   --green: #1f6f61;
-  --max: 1200px;
+  --max: 1160px;
   --signal: #76d7b2;
 }
 
@@ -24,7 +24,7 @@ body {
   margin: 0;
   color: var(--ink);
   background: var(--paper);
-  font-family: Inter, Avenir Next, Helvetica Neue, Arial, Hiragino Sans GB, PingFang SC, sans-serif;
+  font-family: Avenir Next, Helvetica Neue, Arial, Hiragino Sans GB, PingFang SC, sans-serif;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -49,9 +49,9 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 28px;
-  padding: 14px 48px;
+  padding: 18px 48px;
   color: var(--paper);
-  background: rgba(5, 10, 17, 0.88);
+  background: rgba(4, 13, 25, 0.82);
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(18px);
 }
@@ -98,10 +98,10 @@ img {
   isolation: isolate;
   display: flex;
   align-items: center;
-  min-height: min(900px, 92vh);
+  min-height: 86vh;
   overflow: hidden;
   color: var(--paper);
-  background: #070b11;
+  background: linear-gradient(110deg, #07111f 0%, #061a33 54%, #0b1a25 100%);
   padding: 128px 48px 86px;
 }
 
@@ -134,12 +134,10 @@ img {
   right: 0;
   bottom: 0;
   z-index: 1;
-  width: 62%;
+  width: 58%;
   min-width: 580px;
   height: 100%;
   pointer-events: none;
-  opacity: 0.82;
-  mix-blend-mode: screen;
 }
 
 .hero-inner {
@@ -149,33 +147,12 @@ img {
   margin: 0 auto;
 }
 
-.hero-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1.08fr) minmax(420px, 0.92fr);
-  gap: 72px;
-  align-items: center;
-}
-
-.hero-message h1 {
-  max-width: 760px;
-  margin-bottom: 28px;
-  font-size: clamp(58px, 7vw, 104px);
-  line-height: 0.96;
-  letter-spacing: 0;
-}
-
-.hero-message .hero-subcopy {
-  max-width: 600px;
-  font-size: 21px;
-}
-
 .hero-proof {
   position: relative;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 8px;
-  background: rgba(10, 17, 25, 0.76);
-  backdrop-filter: blur(8px);
+  background: #0a1119;
   box-shadow: 0 32px 90px rgba(0, 0, 0, 0.32);
 }
 
@@ -237,15 +214,32 @@ img {
 
 .proof-flow i { flex: 1; height: 1px; background: rgba(118, 215, 178, 0.32); }
 
-.hero-index {
-  grid-column: 1 / -1;
-  display: flex;
-  gap: 28px;
-  padding-top: 24px;
-  color: rgba(255, 255, 255, 0.38);
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
-  font-size: 11px;
-  text-transform: uppercase;
+.system-status-section {
+  padding: 88px 48px;
+  color: var(--paper);
+  background: #070b11;
+}
+
+.system-status-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 0.72fr) minmax(460px, 1fr);
+  gap: 84px;
+  align-items: center;
+  width: min(100%, var(--max));
+  margin: 0 auto;
+}
+
+.system-status-copy h2 {
+  margin-bottom: 24px;
+  color: var(--paper);
+  font-size: 48px;
+}
+
+.system-status-copy > p:last-child {
+  max-width: 430px;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 18px;
 }
 
 .eyebrow,
@@ -1010,8 +1004,8 @@ h3 {
     padding: 118px 24px 72px;
   }
 
-  .hero-layout { grid-template-columns: 1fr; gap: 42px; }
-  .hero-proof { max-width: 620px; }
+  .system-status-inner { grid-template-columns: 1fr; gap: 36px; }
+  .hero-proof { max-width: 680px; }
 
   .hero::before {
     background-position: right -120px bottom 8%;
@@ -1081,8 +1075,7 @@ h3 {
   }
 
   .hero {
-    min-height: auto;
-    padding-bottom: 52px;
+    min-height: 80vh;
   }
 
   .hero::before {
@@ -1098,11 +1091,8 @@ h3 {
     font-size: 44px;
   }
 
-  .hero-message h1 { font-size: 48px; }
-  .hero-message .hero-subcopy { font-size: 17px; }
   .proof-row { min-height: 82px; padding: 14px; }
   .proof-row small { max-width: 210px; }
-  .hero-index { flex-wrap: wrap; gap: 10px 20px; }
 
   .hero-chinese {
     margin-bottom: 34px;
@@ -1186,13 +1176,11 @@ h3 {
   }
 
   body { overflow-x: hidden; }
-  .hero-layout,
-  .hero-message,
   .hero-proof,
   .proof-row,
   .proof-row div { min-width: 0; }
   .hero-proof { width: 100%; }
-  .hero-message h1 { font-size: 40px; overflow-wrap: anywhere; }
-  .hero-actions .button { flex: 1 1 150px; padding-inline: 12px; }
   .proof-row b { flex: 0 0 auto; }
+  .system-status-section { padding: 64px 24px; }
+  .system-status-copy h2 { font-size: 36px; }
 }

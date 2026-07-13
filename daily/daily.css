@@ -410,6 +410,24 @@
   box-shadow: 0 30px 90px rgba(0, 0, 0, 0.3);
 }
 
+.daily-hero-side {
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+}
+
+.signal-orb-panel-restored {
+  min-height: 390px;
+  background: rgba(7, 13, 20, 0.72);
+  backdrop-filter: blur(8px);
+}
+
+.signal-orb-panel-restored .signal-orb {
+  min-height: 330px;
+  transform: scale(0.78);
+  transform-origin: center;
+}
+
 .today-panel-head,
 .today-weather,
 .today-meta {
@@ -439,6 +457,7 @@
 @media (max-width: 900px) {
   .daily-page .daily-hero-grid { grid-template-columns: 1fr; gap: 36px; }
   .today-panel { max-width: 620px; }
+  .daily-hero-side { max-width: 620px; }
 }
 
 @media (max-width: 640px) {
@@ -447,6 +466,8 @@
   .today-weather { align-items: flex-start; flex-direction: column; gap: 8px; }
   .today-weather strong { max-width: 100%; text-align: left; }
   .today-meta { align-items: flex-start; flex-direction: column; }
+  .signal-orb-panel-restored { min-height: 340px; }
+  .signal-orb-panel-restored .signal-orb { min-height: 280px; transform: scale(0.68); }
 }
 
 .morning-list {

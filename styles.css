@@ -134,11 +134,12 @@ img {
   right: 0;
   bottom: 0;
   z-index: 1;
-  width: 48%;
+  width: 62%;
   min-width: 580px;
   height: 100%;
   pointer-events: none;
-  opacity: 0.28;
+  opacity: 0.82;
+  mix-blend-mode: screen;
 }
 
 .hero-inner {
@@ -173,7 +174,8 @@ img {
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 8px;
-  background: rgba(10, 17, 25, 0.84);
+  background: rgba(10, 17, 25, 0.76);
+  backdrop-filter: blur(8px);
   box-shadow: 0 32px 90px rgba(0, 0, 0, 0.32);
 }
 

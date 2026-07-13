@@ -2,10 +2,10 @@
 """Publish one Morning Brief entry into the static website data file.
 
 Usage:
-    python 06_TECH/Automation/publish_morning_brief_to_site.py brief.json
+    python .github/scripts/publish_morning_brief_to_site.py brief.json
 
 The input JSON must be one object shaped like a single item in
-04_WEBSITE/site/data/daily-brief.json -> morning_briefs.
+data/daily-brief.json -> morning_briefs.
 Existing entries with the same date are replaced.
 """
 
@@ -17,7 +17,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-SITE_DATA = ROOT / "04_WEBSITE" / "site" / "data" / "daily-brief.json"
+SITE_DATA = ROOT / "data" / "daily-brief.json"
 
 
 def read_json(path: Path) -> object:

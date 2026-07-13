@@ -1,0 +1,286 @@
+{
+  "updated": "2026-07-13",
+  "signal": "xingchenxi is becoming a living Company OS: website, IP, research workflows, and operating memory now move through one visible system.",
+  "year": "2026",
+  "year_terms": [
+    { "label": "AI-powered knowledge automation", "weight": 5 },
+    { "label": "Company OS", "weight": 5 },
+    { "label": "Research automation", "weight": 4 },
+    { "label": "Bioinformatics", "weight": 4 },
+    { "label": "Digital Workforce", "weight": 4 },
+    { "label": "Codex", "weight": 4 },
+    { "label": "IP Universe", "weight": 3 },
+    { "label": "Cognitive OS", "weight": 3 },
+    { "label": "Daily Brief", "weight": 3 },
+    { "label": "Paper search", "weight": 3 },
+    { "label": "Website", "weight": 3 },
+    { "label": "Cloudflare Pages", "weight": 2 },
+    { "label": "Figure pipeline", "weight": 2 },
+    { "label": "Semantic Scholar", "weight": 2 },
+    { "label": "OpenAlex", "weight": 2 },
+    { "label": "NCBI", "weight": 2 },
+    { "label": "Brand assets", "weight": 2 },
+    { "label": "Git sync", "weight": 2 },
+    { "label": "Founder memory", "weight": 2 },
+    { "label": "Long-term moat", "weight": 2 },
+    { "label": "xingchenxi.ai", "weight": 1 },
+    { "label": "SOP", "weight": 1 },
+    { "label": "RFC", "weight": 1 },
+    { "label": "Decision Log", "weight": 1 }
+  ],
+  "morning_briefs": [
+    {
+      "date": "2026-07-13",
+      "title": "工作日晨间简报：上海天气、AI 与肺癌科研信号",
+      "summary": "面向快速阅读和后续深挖的中文晨间简报，覆盖上海天气、全球财经、AI 重大事件、名人讯息、肺癌科研与肺癌 AI 动态。",
+      "tags": ["morning-brief", "china", "ai", "lung-cancer"],
+      "weather": {
+        "city": "上海（根据 Asia/Shanghai 时区推断）",
+        "temperature": "当前约 30.7°C，体感约 35.2°C，湿度 74%。",
+        "feels_like": "闷热感明显，适合轻薄透气衣物。",
+        "precipitation": "午后 13:00-16:00 降水概率升至约 72%-97%。",
+        "wind": "风速约 21 km/h，外出注意阵风。",
+        "air_quality": "US AQI 约 51，PM2.5 约 13.9 μg/m³。",
+        "advice": "建议带伞，午后通勤预留降雨和路面湿滑时间。"
+      },
+      "categories": [
+        {
+          "name": "全球财经新闻",
+          "items": [
+            {
+              "date": "2026-07-13",
+              "title": "布伦特原油仍在约 78 美元/桶附近交易",
+              "why": "油价继续影响全球通胀预期、航空化工成本和央行政策判断。",
+              "impact": "若能源风险持续，权益市场估值和消费者成本都可能承压。",
+              "source": {
+                "label": "CME Brent",
+                "href": "https://www.cmegroup.com/markets/energy/crude-oil/brent-crude-oil.html"
+              }
+            },
+            {
+              "date": "2026-07-09",
+              "title": "ECB 会议纪要提示能源价格推高通胀预测",
+              "why": "欧洲降息路径受到能源价格和通胀预期牵制。",
+              "impact": "欧元区债券、银行和周期板块仍需关注政策定价变化。",
+              "source": {
+                "label": "ECB accounts",
+                "href": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg260709~0e7f8241c9.en.html"
+              }
+            },
+            {
+              "date": "2026-07-08",
+              "title": "美联储纪要把 AI 投资列入宏观不确定性来源",
+              "why": "AI 资本开支开始从科技叙事进入通胀、能源和利率叙事。",
+              "impact": "数据中心、电力、芯片和利率之间的传导链值得持续跟踪。",
+              "source": {
+                "label": "Federal Reserve minutes",
+                "href": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm"
+              }
+            }
+          ]
+        },
+        {
+          "name": "AI 最新重大事件",
+          "items": [
+            {
+              "date": "2026-07-09",
+              "title": "OpenAI 新闻页列出 GPT-5.6 与 System Card 等更新",
+              "why": "前沿模型发布与安全披露同步推进，影响企业采用节奏。",
+              "impact": "办公、开发和科研工作流可能继续向默认 AI 模型入口迁移。",
+              "source": {
+                "label": "OpenAI News",
+                "href": "https://openai.com/news/"
+              }
+            },
+            {
+              "date": "2026-07-09",
+              "title": "Anthropic 发起公开征集 AI 尖锐问题",
+              "why": "AI 公司把公共问责纳入安全治理和社会沟通。",
+              "impact": "模型公司竞争不只在能力，也在透明度、监管和信任建设。",
+              "source": {
+                "label": "Anthropic News",
+                "href": "https://www.anthropic.com/news"
+              }
+            },
+            {
+              "date": "2026-07-19",
+              "title": "NVIDIA SIGGRAPH 2026 将聚焦神经渲染、物理 AI 与 OpenUSD",
+              "why": "图形、仿真、机器人和物理世界 AI 基础设施继续融合。",
+              "impact": "创意工具、工业仿真和机器人开发栈可能进一步统一。",
+              "source": {
+                "label": "NVIDIA SIGGRAPH",
+                "href": "https://www.nvidia.com/en-us/events/siggraph/"
+              }
+            }
+          ]
+        },
+        {
+          "name": "全球名人相关最新讯息",
+          "items": [
+            {
+              "date": "2026-07-13",
+              "title": "AP 本周流媒体推荐继续围绕明星和既有 IP",
+              "why": "暑期流媒体竞争依赖明星阵容、续作和高识别度内容。",
+              "impact": "平台订阅增长和内容营销仍受头部艺人与 IP 组合驱动。",
+              "source": {
+                "label": "AP What to Stream",
+                "href": "https://apnews.com/article/6ef4b38b932d3d878da33adca316d537"
+              }
+            },
+            {
+              "date": "2026-07-13",
+              "title": "AP 名人生日榜覆盖 Patrick Stewart、Harrison Ford 等",
+              "why": "名人节点常带动社交媒体回顾、营销素材和影迷社区传播。",
+              "impact": "短期热度适合用于内容日历和品牌借势判断。",
+              "source": {
+                "label": "AP celebrity birthdays",
+                "href": "https://apnews.com/article/celeb-birthday-july-2026-harrison-f4b5c23ca339b5a9e8c8516c887b248e"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研最新进展",
+          "items": [
+            {
+              "date": "2026-07-03",
+              "title": "The Lancet Oncology 发表 PACIFIC 相关事后分析",
+              "why": "研究关注合并用药与 III 期 NSCLC 免疫治疗结局的关联。",
+              "impact": "这是关联性分析，临床意义仍需谨慎解释，不能直接推出个人用药建议。",
+              "source": {
+                "label": "The Lancet Oncology",
+                "href": "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045%2826%2900191-9/fulltext"
+              }
+            },
+            {
+              "date": "2026-07-08",
+              "title": "JAMA 评估新加坡从不吸烟者 LDCT 肺癌筛查成本效益",
+              "why": "亚洲从不吸烟者肺癌风险分层是早筛策略的重要问题。",
+              "impact": "筛查扩大需要风险模型性能和成本效益双重验证。",
+              "source": {
+                "label": "JAMA Network Open",
+                "href": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2851347"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研中的 AI 动态",
+          "items": [
+            {
+              "date": "2026-03",
+              "title": "Nature Medicine LungIMPACT 随机试验显示 AI 胸片排序未显著缩短诊断路径",
+              "why": "它提醒 AI 模型性能不等于临床流程收益。",
+              "impact": "后续需要把 AI 与医院流程重设计一起验证。",
+              "source": {
+                "label": "Nature Medicine",
+                "href": "https://www.nature.com/articles/s41591-026-04253-5"
+              }
+            },
+            {
+              "date": "2026-06",
+              "title": "npj Digital Medicine 综述肺癌转移影像 AI",
+              "why": "肺癌 AI 研究从原发灶识别扩展到转移诊断和预后。",
+              "impact": "临床落地仍需前瞻验证、外部验证和公平性评估。",
+              "source": {
+                "label": "npj Digital Medicine",
+                "href": "https://www.nature.com/articles/s41746-026-02858-1"
+              }
+            },
+            {
+              "date": "2026",
+              "title": "ClinicalTrials.gov 已登记多项肺癌 AI 研究",
+              "why": "研究正在从回顾性模型走向临床验证。",
+              "impact": "应持续跟踪终点、样本量、中心数量和是否有真实临床收益。",
+              "source": {
+                "label": "ClinicalTrials AI-HOPE",
+                "href": "https://clinicaltrials.gov/study/NCT06788366"
+              }
+            }
+          ]
+        }
+      ],
+      "followups": [
+        "AI 投资是否正在成为新的通胀因子：深挖数据中心、电力、芯片和利率之间的传导链。",
+        "上海午后强降水通勤风险：追踪雷达图和短临预警，决定是否调整出行时间。",
+        "LungIMPACT 试验为何路径无改善：拆解模型性能与医院流程之间的差距。",
+        "新加坡从不吸烟者 LDCT 筛查经济学：比较亚洲女性肺癌、空气暴露和风险模型。",
+        "OpenAI 与 Anthropic 7月安全披露：对比系统卡、bug bounty 和企业采用风险。",
+        "肺癌 AI 临床试验登记：按影像、病理、疗效预测建立 trial tracker。"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "date": "2026-07-13",
+      "title": "Daily Brief architecture enters the website system",
+      "summary": "Defined how xingchenxi will publish daily operating memory as a visible website layer, starting with static JSON and a mission-log style page.",
+      "shipped": [
+        "Repository architecture policy",
+        "Media asset policy",
+        "Repository governance SOP",
+        "Daily Brief website SOP",
+        "First /daily/ website module"
+      ],
+      "next": [
+        "Turn Codex session summaries into daily entries",
+        "Add deploy status and latest artifact links",
+        "Create a lightweight automation draft generator"
+      ],
+      "links": [
+        {
+          "label": "Home",
+          "href": "../"
+        }
+      ],
+      "tags": ["company-os", "website", "operations"]
+    },
+    {
+      "date": "2026-07-10",
+      "title": "IP Universe and Cognitive OS shipped to production",
+      "summary": "The website gained a richer IP universe page and Bryn OS cognitive asset module, turning brand narrative and decision memory into visible public surfaces.",
+      "shipped": [
+        "The Sinking Star Exclusion Zone /ip/ page",
+        "Clickable IP scene cards and compact video console",
+        "Bryn OS /cognitive-os/ page",
+        "First cognitive asset entry",
+        "Cloudflare Pages production deployment"
+      ],
+      "next": [
+        "Improve the IP story page with more scenes",
+        "Add more interview-derived cognitive assets",
+        "Connect daily company logs to the homepage"
+      ],
+      "links": [
+        {
+          "label": "IP Universe",
+          "href": "../ip/"
+        },
+        {
+          "label": "Bryn OS",
+          "href": "../cognitive-os/"
+        }
+      ],
+      "tags": ["ip", "cognitive-os", "deployment"]
+    },
+    {
+      "date": "2026-07-06",
+      "title": "xingchenxi character IP system began",
+      "summary": "The first character IP direction was established around Xingche, Xiao Cheng, and the emotional layer of AI-powered knowledge automation.",
+      "shipped": [
+        "Character bible",
+        "Boy protagonist brief",
+        "Starseed companion direction",
+        "First story arc variants",
+        "Visual direction notes"
+      ],
+      "next": [
+        "Stabilize character consistency",
+        "Define repeatable scene generation prompts",
+        "Separate raw media from curated website assets"
+      ],
+      "links": [],
+      "tags": ["brand", "ip", "storyworld"]
+    }
+  ]
+}

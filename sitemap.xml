@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://xingchenxi.ai/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://xingchenxi.ai/daily/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xingchenxi.ai/cognitive-os/</loc>
+    <lastmod>2026-07-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xingchenxi.ai/ip/</loc>
+    <lastmod>2026-07-10</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xingchenxi.ai/privacy.html</loc>
+    <lastmod>2026-07-02</lastmod>
+    <priority>0.3</priority>
+  </url>
+</urlset>

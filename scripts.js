@@ -84,14 +84,14 @@
   }
 
   function drawRings(time) {
-    const shimmer = 0.015 + Math.sin(time * 0.0005) * 0.006;
-    ctx.lineWidth = 1;
-    ctx.strokeStyle = `rgba(216, 232, 247, ${0.08 + shimmer})`;
+    const shimmer = 0.03 + Math.sin(time * 0.0005) * 0.012;
+    ctx.lineWidth = 1.2;
+    ctx.strokeStyle = `rgba(216, 232, 247, ${0.17 + shimmer})`;
     ctx.beginPath();
     ctx.ellipse(centerX, centerY, radius * 0.86, radius * 0.36, -0.28, 0, Math.PI * 2);
     ctx.stroke();
 
-    ctx.strokeStyle = "rgba(123, 199, 212, 0.085)";
+    ctx.strokeStyle = "rgba(123, 199, 212, 0.2)";
     ctx.beginPath();
     ctx.ellipse(centerX, centerY, radius * 0.68, radius * 0.28, 0.72, 0, Math.PI * 2);
     ctx.stroke();
@@ -118,7 +118,7 @@
         if (distance > threshold) continue;
 
         const depth = (a.alpha + b.alpha) * 0.5;
-        const alpha = (1 - distance / threshold) * depth * 0.18;
+        const alpha = (1 - distance / threshold) * depth * 0.34;
         ctx.strokeStyle = `rgba(123, 199, 212, ${alpha})`;
         ctx.lineWidth = 1;
         ctx.beginPath();
@@ -131,17 +131,20 @@
     for (let i = 0; i < projected.length; i += 1) {
       const point = projected[i];
       const pulse = 0.25 + Math.sin(t * 0.001 + point.pulse * Math.PI * 2) * 0.18;
-      const size = 1.15 + point.alpha * 1.55 + (i % 23 === 0 ? pulse + 0.65 : 0);
-      const alpha = Math.min(0.92, 0.28 + point.alpha * 0.55);
+      const size = 1.3 + point.alpha * 1.75 + (i % 23 === 0 ? pulse + 0.8 : 0);
+      const alpha = Math.min(1, 0.46 + point.alpha * 0.62);
 
+      ctx.shadowColor = i % 23 === 0 ? "rgba(123, 199, 212, 0.9)" : "rgba(216, 232, 247, 0.5)";
+      ctx.shadowBlur = i % 23 === 0 ? 12 : 4;
       ctx.fillStyle = `rgba(245, 247, 250, ${alpha})`;
       ctx.beginPath();
       ctx.arc(point.x, point.y, size, 0, Math.PI * 2);
       ctx.fill();
+      ctx.shadowBlur = 0;
 
       if (i % 23 === 0) {
-        ctx.strokeStyle = `rgba(216, 232, 247, ${0.26 + pulse})`;
-        ctx.lineWidth = 1;
+        ctx.strokeStyle = `rgba(216, 232, 247, ${0.46 + pulse})`;
+        ctx.lineWidth = 1.25;
         ctx.beginPath();
         ctx.arc(point.x, point.y, size + 4, 0, Math.PI * 2);
         ctx.stroke();

@@ -113,7 +113,7 @@ img {
   background-repeat: no-repeat;
   background-position: right -2% center;
   background-size: min(46vw, 600px);
-  opacity: 0.035;
+  opacity: 0.075;
   z-index: 0;
 }
 
@@ -138,6 +138,7 @@ img {
   min-width: 580px;
   height: 100%;
   pointer-events: none;
+  filter: brightness(1.24) saturate(1.12);
 }
 
 .hero-inner {

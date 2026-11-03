@@ -1,39 +1,580 @@
 {
-  "updated": "2026-07-13",
+  "updated": "2026-11-03",
   "signal": "xingchenxi is becoming a living Company OS: website, IP, research workflows, and operating memory now move through one visible system.",
   "year": "2026",
   "year_terms": [
-    { "label": "AI-powered knowledge automation", "weight": 5 },
-    { "label": "Company OS", "weight": 5 },
-    { "label": "Research automation", "weight": 4 },
-    { "label": "Bioinformatics", "weight": 4 },
-    { "label": "Digital Workforce", "weight": 4 },
-    { "label": "Codex", "weight": 4 },
-    { "label": "IP Universe", "weight": 3 },
-    { "label": "Cognitive OS", "weight": 3 },
-    { "label": "Daily Brief", "weight": 3 },
-    { "label": "Paper search", "weight": 3 },
-    { "label": "Website", "weight": 3 },
-    { "label": "Cloudflare Pages", "weight": 2 },
-    { "label": "Figure pipeline", "weight": 2 },
-    { "label": "Semantic Scholar", "weight": 2 },
-    { "label": "OpenAlex", "weight": 2 },
-    { "label": "NCBI", "weight": 2 },
-    { "label": "Brand assets", "weight": 2 },
-    { "label": "Git sync", "weight": 2 },
-    { "label": "Founder memory", "weight": 2 },
-    { "label": "Long-term moat", "weight": 2 },
-    { "label": "xingchenxi.ai", "weight": 1 },
-    { "label": "SOP", "weight": 1 },
-    { "label": "RFC", "weight": 1 },
-    { "label": "Decision Log", "weight": 1 }
+    {
+      "label": "AI-powered knowledge automation",
+      "weight": 5
+    },
+    {
+      "label": "Company OS",
+      "weight": 5
+    },
+    {
+      "label": "Research automation",
+      "weight": 4
+    },
+    {
+      "label": "Bioinformatics",
+      "weight": 4
+    },
+    {
+      "label": "Digital Workforce",
+      "weight": 4
+    },
+    {
+      "label": "Codex",
+      "weight": 4
+    },
+    {
+      "label": "IP Universe",
+      "weight": 3
+    },
+    {
+      "label": "Cognitive OS",
+      "weight": 3
+    },
+    {
+      "label": "Daily Brief",
+      "weight": 3
+    },
+    {
+      "label": "Paper search",
+      "weight": 3
+    },
+    {
+      "label": "Website",
+      "weight": 3
+    },
+    {
+      "label": "Cloudflare Pages",
+      "weight": 2
+    },
+    {
+      "label": "Figure pipeline",
+      "weight": 2
+    },
+    {
+      "label": "Semantic Scholar",
+      "weight": 2
+    },
+    {
+      "label": "OpenAlex",
+      "weight": 2
+    },
+    {
+      "label": "NCBI",
+      "weight": 2
+    },
+    {
+      "label": "Brand assets",
+      "weight": 2
+    },
+    {
+      "label": "Git sync",
+      "weight": 2
+    },
+    {
+      "label": "Founder memory",
+      "weight": 2
+    },
+    {
+      "label": "Long-term moat",
+      "weight": 2
+    },
+    {
+      "label": "xingchenxi.ai",
+      "weight": 1
+    },
+    {
+      "label": "SOP",
+      "weight": 1
+    },
+    {
+      "label": "RFC",
+      "weight": 1
+    },
+    {
+      "label": "Decision Log",
+      "weight": 1
+    }
   ],
   "morning_briefs": [
+    {
+      "date": "2026-11-03",
+      "title": "工作日晨间简报｜新加坡天气、全球市场、AI 与肺癌科研",
+      "summary": "新加坡今日高温潮湿且有阵雨风险，空气质量中等；市场关注美国中期选举、AI估值与宏观数据，肺癌板块聚焦新近发表的早期研究与AI病理验证。",
+      "tags": [
+        "morning-brief",
+        "singapore-inferred",
+        "markets",
+        "ai",
+        "lung-cancer"
+      ],
+      "weather": {
+        "city": "新加坡（根据系统 locale/Asia/Singapore 时区推断，非已确认偏好；可更新城市偏好）",
+        "temperature": "22.9–32.9°C，炎热潮湿。",
+        "feels_like": "闷热环境下体感可能更高，建议轻薄、透气衣物。",
+        "precipitation": "最高降水概率 100%，预报累计约 2.9 mm；建议随身带伞并预留通勤时间。",
+        "wind": "最大风速约 10.9 km/h，风力较弱。",
+        "air_quality": "07:00 的 US AQI 67、PM2.5 14.8 μg/m³，属中等水平；一般户外活动可照常，敏感人群可按自身情况降低长时间高强度暴露。",
+        "advice": "重点防晒、防雨和补水；天气与空气质量来自 Open-Meteo 模型/汇总数据，实时状况可能变化。"
+      },
+      "categories": [
+        {
+          "name": "全球财经新闻",
+          "items": [
+            {
+              "date": "2026-11-02",
+              "title": "全球股市在美国中期选举前保持谨慎，油价走低",
+              "why": "市场同时消化选举、利率路径与科技股估值，风险偏好仍脆弱。",
+              "impact": "能源、科技和美元相关资产可能继续放大波动；应关注宏观数据相对预期的偏差。",
+              "source": {
+                "label": "Reuters 市场报道",
+                "href": "https://malaysia.news.yahoo.com/asia-shares-bend-under-ai-004046810.html"
+              }
+            },
+            {
+              "date": "2026-10-13",
+              "title": "IMF 预计 2026 年全球增长 3.1%，通胀 4.7%",
+              "why": "AI投资支撑部分经济体，但能源、冲突与财政脆弱性令前景分化。",
+              "impact": "企业应在增长机会与成本、利率、供应链风险之间保持情景预案。",
+              "source": {
+                "label": "IMF《世界经济展望》",
+                "href": "https://www.imf.org/en/Publications/WEO/Issues/2026/10/13/world-economic-outlook-october-2026"
+              }
+            },
+            {
+              "date": "2026-10-28",
+              "title": "美联储最新 FOMC 声明仍是全球定价锚点",
+              "why": "市场将在 11 月 18 日迎来该次会议纪要，重新评估通胀与增长权衡。",
+              "impact": "利率预期的任何重估都可能经由美元和估值传导至亚洲风险资产。",
+              "source": {
+                "label": "美联储 2026 年 FOMC 发布页",
+                "href": "https://www.federalreserve.gov/newsevents/pressreleases/2026-press-fomc.htm"
+              }
+            }
+          ]
+        },
+        {
+          "name": "AI 最新重大事件",
+          "items": [
+            {
+              "date": "2026-10-30",
+              "title": "OpenAI 发布网站训练偏好表达机制",
+              "why": "内容方可更清晰表达对 AI 训练的偏好，数据治理正进入产品和基础设施层面。",
+              "impact": "内容平台与开发团队需跟踪机器可读偏好、许可与数据来源记录。",
+              "source": {
+                "label": "OpenAI News",
+                "href": "https://openai.com/news/"
+              }
+            },
+            {
+              "date": "2026-10-29",
+              "title": "OpenAI 更新 Model Spec 与前沿模型失配检测说明",
+              "why": "能力扩展同时要求更可执行的行为规范和安全评估。",
+              "impact": "采用方应把模型行为评测、权限边界与人工复核纳入上线门槛。",
+              "source": {
+                "label": "OpenAI News",
+                "href": "https://openai.com/news/"
+              }
+            },
+            {
+              "date": "2026-11-02",
+              "title": "AI 估值仍是跨资产市场的主要波动因子",
+              "why": "Reuters 报道显示，投资者开始更严格区分能将 AI 投入转化为现金流的公司。",
+              "impact": "AI 基建、芯片和云服务的资本开支需同时接受回报周期与估值压力检验。",
+              "source": {
+                "label": "Reuters 市场报道",
+                "href": "https://malaysia.news.yahoo.com/asia-shares-bend-under-ai-004046810.html"
+              }
+            }
+          ]
+        },
+        {
+          "name": "全球名人最新讯息",
+          "items": [
+            {
+              "date": "2026-11-02",
+              "title": "肯尼迪中心公布 2026 年荣誉奖名单",
+              "why": "Paul Anka、David Foster、Andy Garcia、David Mamet 与 Barbara Mandrell 将获表彰。",
+              "impact": "典礼首次因场馆翻修争议移师馆外，文化机构治理亦成为传播焦点。",
+              "source": {
+                "label": "AP News",
+                "href": "https://apnews.com/article/10d6391fe8430a5974e64fe14fce6fc9"
+              }
+            },
+            {
+              "date": "2026-11-01",
+              "title": "Margaret Qualley 与 Jack Antonoff 提交离婚申请",
+              "why": "法院记录为公开可核验的一手程序信息，避免依赖传闻。",
+              "impact": "事件的主要影响在娱乐媒体与粉丝社区，相关细节应尊重个人隐私。",
+              "source": {
+                "label": "AP Entertainment 摘要",
+                "href": "https://metro.newschannelnebraska.com/story/370523942/ap-entertainment-summarybrief-at-114-am-edt"
+              }
+            },
+            {
+              "date": "2026-10-30",
+              "title": "年末流媒体档期启动，音乐、影视与游戏同步上新",
+              "why": "AP 本周推荐涵盖 Kings of Leon 新作、剧集与《塞尔达传说：时之笛》重制。",
+              "impact": "平台排播与明星/IP 联动将决定年末注意力和订阅转化。",
+              "source": {
+                "label": "AP News",
+                "href": "https://apnews.com/article/4eceeb549c3ca564dd1402eba13bd25e"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研最新进展",
+          "items": [
+            {
+              "date": "2026-11",
+              "title": "ES-SCLC 单臂 II 期研究报告卡瑞利珠单抗序贯阿帕替尼维持的初步活性",
+              "why": "41 名受试者中，报告的 6 个月 PFS 率为 71.1%，并探索了免疫分型关联。",
+              "impact": "单臂、小样本结果是研究信号，不能替代随机对照证据或改变个体诊疗。",
+              "source": {
+                "label": "PubMed / Lung Cancer",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42767923/"
+              }
+            },
+            {
+              "date": "2026-08-13",
+              "title": "早期 RET 融合阳性 NSCLC 的 selpercatinib 研究已发表",
+              "why": "高选择性 RET 抑制剂正从晚期治疗向更早期疾病场景推进。",
+              "impact": "适用人群、长期结局和与标准围手术期方案的关系仍需按完整论文与监管标签判断。",
+              "source": {
+                "label": "PubMed",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42223087/"
+              }
+            },
+            {
+              "date": "2026-10",
+              "title": "ASCO Living Guideline 更新晚期驱动基因阳性 NSCLC 治疗证据",
+              "why": "活指南将新试验结果纳入持续更新的分子分型治疗框架。",
+              "impact": "这是专业指南信息，不构成个人治疗建议；临床决策仍依赖病理、分期与主治团队。",
+              "source": {
+                "label": "ASCO / JCO",
+                "href": "https://ascopubs.org/doi/pdfdirect/10.1200/JCO-25-02822"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研中的 AI 动态",
+          "items": [
+            {
+              "date": "2026-11",
+              "title": "多中心队列用 AI 评估新辅助免疫化疗后的病理反应",
+              "why": "135 名患者、1,344 张 H&E 切片中，AI 与专家共识的主要病理反应分类总体准确率为 91%。",
+              "impact": "属回顾性验证；跨实验室泛化、前瞻性临床效益和工作流影响仍待检验。",
+              "source": {
+                "label": "PubMed / Lung Cancer",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42715648/"
+              }
+            },
+            {
+              "date": "2026-10",
+              "title": "IASLC 项目发表机器学习评估新辅助治疗后肺癌切除标本的研究",
+              "why": "研究以 15,564 项病理医师标注训练数字 AI 模型，目标是标准化病理反应评估。",
+              "impact": "算法性能不等于患者获益；需查看外部验证、失误模式与使用后的临床结局。",
+              "source": {
+                "label": "PubMed / Journal of Thoracic Oncology",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42229633/"
+              }
+            },
+            {
+              "date": "2026-10-01",
+              "title": "多模态 AI 早筛综述强调 LDCT 全流程而非单点检出",
+              "why": "论文把 AI、影像组学、临床风险和分子标志物置于资格筛选、结节分诊与随访的完整路径中审视。",
+              "impact": "这属于综述与转化性观点；没有替代筛查标准或证明广泛临床部署的效果。",
+              "source": {
+                "label": "PubMed",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42822135/"
+              }
+            }
+          ]
+        }
+      ],
+      "followups": [
+        "美国中期选举结果将如何改变美元、能源与科技股的短期定价？",
+        "IMF 所述的 AI 投资红利能否抵消能源和财政压力？",
+        "OpenAI 的训练偏好机制将如何影响内容授权与数据治理？",
+        "AI 资本开支何时能转化为可验证的经营现金流？",
+        "selpercatinib 在早期 RET 融合阳性 NSCLC 的证据边界是什么？",
+        "如何解读单臂 II 期 ES-SCLC 研究的疗效与安全性信号？",
+        "肺癌病理 AI 需要哪些前瞻性、多中心临床验证才可进入常规流程？"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "title": "工作日晨间简报｜上海天气、全球市场、AI 与肺癌科研",
+      "summary": "上海今日早凉午暖、晨间降水概率高且颗粒物偏高；市场聚焦油价回落、科技股波动与本周宏观数据。肺癌板块以 NeoCOAST-2 的 ctDNA/EFS 结果及临床验证需求为核心。",
+      "tags": [
+        "morning-brief",
+        "shanghai-inferred",
+        "markets",
+        "ai",
+        "lung-cancer"
+      ],
+      "weather": {
+        "city": "上海（根据 Asia/Shanghai 时区与自动化历史推断；如需可更新城市偏好）",
+        "temperature": "今日 13.3–19.6°C；当前约 13.5°C，体感 13.9°C。",
+        "feels_like": "早晚偏凉、午间舒适；建议叠穿薄外套。",
+        "precipitation": "凌晨至清晨降水概率最高可达 100%，上午后转低；通勤宜带伞并留意湿滑路面。",
+        "wind": "最大风速约 11.3 km/h，整体风力较弱。",
+        "air_quality": "当前 US AQI 149、PM2.5 约 82.7 μg/m³（偏高）；敏感人群宜减少长时间户外剧烈活动。",
+        "advice": "早间有雨和颗粒物风险，优先选择有遮蔽的通勤方式；午间升温后可适度减衣。天气与空气质量来自 Open-Meteo，属模型/站点汇总数据。"
+      },
+      "categories": [
+        {
+          "name": "全球财经新闻",
+          "items": [
+            {
+              "date": "2026-11-02",
+              "title": "油价回落带来短线风险偏好修复",
+              "why": "市场将油价波动视为通胀与利率预期的重要变量。",
+              "impact": "能源、运输和贵金属波动可能放大；需要防范地缘局势反复。",
+              "source": {
+                "label": "Reuters/MarketScreener",
+                "href": "https://www.marketscreener.com/news/gold-rises-on-softer-oil-markets-parse-fed-signals-ce785fd8dc88f220"
+              }
+            },
+            {
+              "date": "2026-11-02",
+              "title": "欧美股市在科技股回撤后观望",
+              "why": "投资者同时消化央行决策、财报季和美国中期选举。",
+              "impact": "高估值科技资产的波动可传导至全球风险资产与美元。",
+              "source": {
+                "label": "Reuters/MarketScreener",
+                "href": "https://ca.marketscreener.com/news/european-stocks-flat-oil-drops-as-midterm-caution-prevails-ce785fd8de8bfe25"
+              }
+            },
+            {
+              "date": "2026-11-02",
+              "title": "黄金从前一日大跌后反弹",
+              "why": "油价走弱缓解通胀担忧，但利率路径仍未定价完毕。",
+              "impact": "避险资产并非单向受益，保证金与流动性冲击仍可能造成同步抛售。",
+              "source": {
+                "label": "Reuters/MarketScreener",
+                "href": "https://www.marketscreener.com/news/gold-rises-on-softer-oil-markets-parse-fed-signals-ce785fd8dc88f220"
+              }
+            },
+            {
+              "date": "2026-11-02",
+              "title": "本周宏观数据与企业财报进入密集窗口",
+              "why": "PMI、职位空缺、英国央行决议与大型科技公司业绩会共同影响增长和利率预期。",
+              "impact": "关注实际数据与市场预期的差值，而非单一标题。",
+              "source": {
+                "label": "Kiplinger economic calendar",
+                "href": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+              }
+            }
+          ]
+        },
+        {
+          "name": "AI 最新重大事件",
+          "items": [
+            {
+              "date": "2026-11-02",
+              "title": "AI 估值波动重新成为跨市场风险因子",
+              "why": "科技股回撤已与油价、利率和美元走势交织，而不再只是行业内部问题。",
+              "impact": "企业应把 AI 资本开支、能源供给与回报兑现节奏放在同一张经营看板中。",
+              "source": {
+                "label": "Reuters market report",
+                "href": "https://ca.marketscreener.com/news/european-stocks-flat-oil-drops-as-midterm-caution-prevails-ce785fd8de8bfe25"
+              }
+            },
+            {
+              "date": "2026-11-02",
+              "title": "美国选举前的 AI 监管预期升温",
+              "why": "报道将潜在更严的 AI 监管列为风险资产定价因素之一。",
+              "impact": "合规、模型透明度和算力供应链的政策敏感度可能上升。",
+              "source": {
+                "label": "Reuters market report",
+                "href": "https://ca.marketscreener.com/news/european-stocks-flat-oil-drops-as-midterm-caution-prevails-ce785fd8de8bfe25"
+              }
+            },
+            {
+              "date": "2026-11-02",
+              "title": "本日未检索到可由一手公告独立证实的重大模型发布",
+              "why": "避免把二手传闻或产品营销误作技术进展。",
+              "impact": "今日应优先跟踪财报中的 AI 资本开支、客户采用和单位经济性披露。",
+              "source": {
+                "label": "OpenAI Newsroom",
+                "href": "https://openai.com/news/"
+              }
+            },
+            {
+              "date": "2026-11-02",
+              "title": "AI 治理持续从原则转向具体制度",
+              "why": "南非国家 AI 政策草案等公开材料显示，数据、问责与高风险应用仍是监管重点。",
+              "impact": "跨境部署需提前映射本地政策和审计证据。",
+              "source": {
+                "label": "South Africa draft AI policy",
+                "href": "https://www.gov.za/sites/default/files/gcis_document/202604/54477gen3880.pdf"
+              }
+            }
+          ]
+        },
+        {
+          "name": "全球名人最新讯息",
+          "items": [
+            {
+              "date": "2026-11-01",
+              "title": "Heidi Klum 万圣节派对迎来 25 周年",
+              "why": "高辨识度的年度事件仍是名人内容与品牌传播的重要节点。",
+              "impact": "节庆造型与社媒传播持续放大头部艺人的商业影响力。",
+              "source": {
+                "label": "AP Entertainment",
+                "href": "https://metro.newschannelnebraska.com/story/370523942/ap-entertainment-summarybrief-at-114-am-edt"
+              }
+            },
+            {
+              "date": "2026-11-01",
+              "title": "Suki Waterhouse 回应与 Robert Pattinson 的婚讯传闻",
+              "why": "本人澄清比二手八卦更具信源价值。",
+              "impact": "名人私生活谣言仍会快速驱动社媒讨论，需区分当事人表态与推测。",
+              "source": {
+                "label": "E! News",
+                "href": "https://www.eonline.com/news"
+              }
+            },
+            {
+              "date": "2026-11-01",
+              "title": "Pete Davidson 与 Elsie Hewitt 共同陪伴女儿度过首个万圣节",
+              "why": "家庭场景依旧是娱乐媒体的高互动题材。",
+              "impact": "关注度主要停留在文化消费层面，信息价值低于当事人公开声明。",
+              "source": {
+                "label": "E! News",
+                "href": "https://www.eonline.com/news"
+              }
+            },
+            {
+              "date": "2026-11-02",
+              "title": "影视与流媒体内容进入年末档期预热",
+              "why": "AP 的本周流媒体清单覆盖新专辑、剧集与游戏重制。",
+              "impact": "IP、明星阵容和平台发行节奏将共同决定短期注意力分配。",
+              "source": {
+                "label": "AP What to stream",
+                "href": "https://apnews.com/article/4eceeb549c3ca564dd1402eba13bd25e"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研最新进展",
+          "items": [
+            {
+              "date": "2026-10-16",
+              "title": "NeoCOAST-2 报告可切除 NSCLC 的 ctDNA 清除与 EFS 关联",
+              "why": "随机平台试验的二次终点提示，术前 ctDNA 清除与更长无事件生存相关。",
+              "impact": "这是风险分层信号，不等同于可直接改变个体治疗；组合方案仍需进一步确认。",
+              "source": {
+                "label": "Nature",
+                "href": "https://www.nature.com/articles/s41586-026-11328-3"
+              }
+            },
+            {
+              "date": "2026-10-16",
+              "title": "Dato-DXd 组合在该研究中显示数值更高的 pCR 与 24 月 EFS",
+              "why": "该结果为围手术期治疗组合提供了候选方向。",
+              "impact": "研究为 II 期平台试验，比较、毒性和更长期终点仍需在后续研究中验证。",
+              "source": {
+                "label": "Nature NeoCOAST-2",
+                "href": "https://www.nature.com/articles/s41586-026-11328-3"
+              }
+            },
+            {
+              "date": "2026-10-31",
+              "title": "蛋白组指导一线晚期 NSCLC 的 II 期试验处于招募状态",
+              "why": "研究拟用风险适配策略改善 12 个月 PFS。",
+              "impact": "注册信息只说明研究设计与招募，尚不构成疗效证据。",
+              "source": {
+                "label": "ClinicalTrials.gov record",
+                "href": "https://clinicaltrials.gov/study/NCT07250477"
+              }
+            },
+            {
+              "date": "2026-11-02",
+              "title": "研究解读：生物标志物的预测价值需与临床可用性分开评估",
+              "why": "ctDNA 相关性很强，但检测方法、时点和干预决策仍有验证缺口。",
+              "impact": "适合关注试验复现与前瞻性验证；不提供个人诊疗建议。",
+              "source": {
+                "label": "Nature NeoCOAST-2",
+                "href": "https://www.nature.com/articles/s41586-026-11328-3"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研中的 AI 动态",
+          "items": [
+            {
+              "date": "2026-11-02",
+              "title": "本日未发现可独立核验的新增肺癌 AI 临床结果公告",
+              "why": "将“没有经验证的新结果”明确列出，避免以预印本或商业宣称替代临床证据。",
+              "impact": "继续以已注册、可追溯的前瞻性研究作为监测基线。",
+              "source": {
+                "label": "ClinicalTrials.gov search",
+                "href": "https://clinicaltrials.gov/search?cond=lung%20cancer&term=artificial%20intelligence"
+              }
+            },
+            {
+              "date": "2026-10-31",
+              "title": "蛋白组指导 NSCLC 试验体现数据驱动分层方向",
+              "why": "虽非 AI 试验命名，但其多组学风险分层为临床决策模型提供可验证场景。",
+              "impact": "关键问题是模型能否在真实世界、多中心环境带来患者结局获益。",
+              "source": {
+                "label": "ClinicalTrials.gov NCT07250477",
+                "href": "https://clinicaltrials.gov/study/NCT07250477"
+              }
+            },
+            {
+              "date": "2026-10-16",
+              "title": "ctDNA 动态为预测模型提供候选特征，但尚非 AI 临床效益证据",
+              "why": "生物标志物与结局的关联可支持模型开发，却不能自动证明算法改善治疗。",
+              "impact": "后续研究需报告外部验证、校准、公平性和临床工作流影响。",
+              "source": {
+                "label": "Nature NeoCOAST-2",
+                "href": "https://www.nature.com/articles/s41586-026-11328-3"
+              }
+            },
+            {
+              "date": "2026-11-02",
+              "title": "专家解读：应区分算法性能、前瞻性临床验证与监管可用性",
+              "why": "医疗 AI 的三层证据常被混淆。",
+              "impact": "阅读论文时应优先检查数据来源、验证集、预设终点和是否改变患者结局。",
+              "source": {
+                "label": "WHO/IARC lung cancer early detection research",
+                "href": "https://www.iarc.who.int/wp-content/uploads/2026/05/pr380_E.pdf"
+              }
+            }
+          ]
+        }
+      ],
+      "followups": [
+        "油价回落能否持续缓解全球通胀和央行压力？",
+        "科技股调整会如何影响 AI 基建资本开支和美元？",
+        "本周美国职位空缺、PMI 与英国央行决议如何改变利率预期？",
+        "NeoCOAST-2 的 ctDNA 清除能否成为围手术期 NSCLC 的实用决策工具？",
+        "Dato-DXd 组合的疗效与安全性将在何种 III 期或确认性研究中检验？",
+        "如何用外部验证、校准与患者结局三项标准审查肺癌 AI 论文？",
+        "上海颗粒物偏高时，如何在不夸大健康风险的前提下安排通勤？"
+      ]
+    },
     {
       "date": "2026-07-13",
       "title": "工作日晨间简报：上海天气、AI 与肺癌科研信号",
       "summary": "面向快速阅读和后续深挖的中文晨间简报，覆盖上海天气、全球财经、AI 重大事件、名人讯息、肺癌科研与肺癌 AI 动态。",
-      "tags": ["morning-brief", "china", "ai", "lung-cancer"],
+      "tags": [
+        "morning-brief",
+        "china",
+        "ai",
+        "lung-cancer"
+      ],
       "weather": {
         "city": "上海（根据 Asia/Shanghai 时区推断）",
         "temperature": "当前约 30.7°C，体感约 35.2°C，湿度 74%。",
@@ -233,7 +774,11 @@
           "href": "../"
         }
       ],
-      "tags": ["company-os", "website", "operations"]
+      "tags": [
+        "company-os",
+        "website",
+        "operations"
+      ]
     },
     {
       "date": "2026-07-10",
@@ -261,7 +806,11 @@
           "href": "../cognitive-os/"
         }
       ],
-      "tags": ["ip", "cognitive-os", "deployment"]
+      "tags": [
+        "ip",
+        "cognitive-os",
+        "deployment"
+      ]
     },
     {
       "date": "2026-07-06",
@@ -280,7 +829,11 @@
         "Separate raw media from curated website assets"
       ],
       "links": [],
-      "tags": ["brand", "ip", "storyworld"]
+      "tags": [
+        "brand",
+        "ip",
+        "storyworld"
+      ]
     }
   ]
 }

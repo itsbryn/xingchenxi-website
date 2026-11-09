@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-09",
   "signal": "xingchenxi is becoming a living Company OS: website, IP, research workflows, and operating memory now move through one visible system.",
   "year": "2026",
   "year_terms": [
@@ -101,6 +101,213 @@
     }
   ],
   "morning_briefs": [
+    {
+      "date": "2026-11-09",
+      "title": "工作日晨间简报｜新加坡雨日、市场、AI 与肺癌科研",
+      "summary": "新加坡今天闷热有雨，午后至傍晚强降雨风险显著；市场仍在重估利率、能源与 AI 投资回报，肺癌板块聚焦近期发表的 ALK 辅助治疗 III 期证据和多中心 AI 验证。",
+      "tags": [
+        "morning-brief",
+        "singapore-inferred",
+        "markets",
+        "ai",
+        "lung-cancer"
+      ],
+      "weather": {
+        "city": "新加坡（根据系统 locale/Asia/Singapore 时区推断，非已确认偏好；可更新城市偏好）",
+        "temperature": "22.8–30.0°C；08:00 约 23.6°C、体感约 28.7°C，湿度 100%。",
+        "feels_like": "闷热明显，适合轻薄、速干衣物；室内外温差时可备薄外套。",
+        "precipitation": "当前有小雨；午后至傍晚降水概率最高 100%，全天预报累计约 16.3 mm，建议带伞并为通勤预留时间。",
+        "wind": "最大风速约 7.0 km/h，风力较弱；大雨时仍须留意能见度和湿滑路面。",
+        "air_quality": "08:00 US AQI 56、PM2.5 9.7 μg/m³，属中等；一般户外活动可照常，敏感人群可按自身情况减少长时间高强度暴露。",
+        "advice": "重点防雨、防晒和补水；天气与空气质量来自 Open-Meteo 模型/汇总数据，局地降雨和实时状况可能变化。"
+      },
+      "categories": [
+        {
+          "name": "全球财经新闻",
+          "items": [
+            {
+              "date": "2026-11-06",
+              "title": "私募市场开始重新审视 AI 驱动的估值逻辑",
+              "why": "公开市场科技估值与 AI 基础设施回报周期仍是资金配置的核心争论。",
+              "impact": "企业应把算力投入、收入兑现和融资成本放在同一情景表中评估。",
+              "source": {
+                "label": "Axios Pro Rata",
+                "href": "https://www.axios.com/newsletters/axios-pro-rata-fbc6f698-c128-41f0-8173-26843eedd925"
+              }
+            },
+            {
+              "date": "2026-11-04",
+              "title": "市场对下一次美联储加息的定价仍偏紧",
+              "why": "利率期货隐含概率反映通胀与增长之间的重新平衡尚未完成。",
+              "impact": "美元、长久期科技资产和新兴市场风险溢价可能继续对宏观数据敏感。",
+              "source": {
+                "label": "CME FedWatch 引述与市场解读",
+                "href": "https://www.kiplinger.com/investing/stocks/603542/best-stocks-for-rising-interest-rates"
+              }
+            },
+            {
+              "date": "2026-11-02",
+              "title": "欧元区制造业 PMI 仍保持扩张但边际回落",
+              "why": "产出、成本与利率路径的分化决定欧洲增长复苏的韧性。",
+              "impact": "出口企业应关注需求放缓和融资成本同时上行的组合风险。",
+              "source": {
+                "label": "Ghana Bank / Reuters 市场简报",
+                "href": "https://www.bog.gov.gh/wp-content/uploads/2026/11/NEWS-BRIEF-02-11-26.pdf"
+              }
+            }
+          ]
+        },
+        {
+          "name": "AI 最新重大事件",
+          "items": [
+            {
+              "date": "2026-11-08",
+              "title": "Anthropic 新闻室将 AI for Science 扩展至基金会和研究机构",
+              "why": "前沿模型公司正把科研协作作为产品与公共利益工作的重点场景。",
+              "impact": "科研团队需要同时验证可复现性、数据治理和人类复核边界。",
+              "source": {
+                "label": "Anthropic Newsroom",
+                "href": "https://www.anthropic.com/news"
+              }
+            },
+            {
+              "date": "2026-10-26",
+              "title": "Anthropic 已提交拟议 IPO 的 S-1 注册声明",
+              "why": "前沿模型公司的资本结构和信息披露将更受市场与监管审视。",
+              "impact": "算力采购、研发投入与商业化路径的透明度会成为行业比较维度。",
+              "source": {
+                "label": "Anthropic 公告",
+                "href": "https://www.anthropic.com/news/anthropic-files-s-1"
+              }
+            },
+            {
+              "date": "2026-10-27",
+              "title": "Claude 药物研发合作披露早期进展",
+              "why": "公告称其与六家新药开发机构开展深度研究合作。",
+              "impact": "这是一项合作与早期进展披露，不应等同于药物研发结果或临床验证。",
+              "source": {
+                "label": "Anthropic Science",
+                "href": "https://www.anthropic.com/news/accelerating-drug-development"
+              }
+            }
+          ]
+        },
+        {
+          "name": "全球名人最新讯息",
+          "items": [
+            {
+              "date": "2026-11-03",
+              "title": "The Lettermen 联合创始人 Tony Butala 去世，享年 87 岁",
+              "why": "AP 援引乐队媒体协调人确认，属于可核验的文化人物动态。",
+              "impact": "其作品与团体历史将带动经典流行音乐的回顾性传播。",
+              "source": {
+                "label": "AP News",
+                "href": "https://apnews.com/article/028f24604e6a4bcb34286f5576220210"
+              }
+            },
+            {
+              "date": "2026-11-08",
+              "title": "本周名人生日节点覆盖 Demi Moore 与 Ryan Gosling 等",
+              "why": "官方媒体日历可作为文化内容排期信号，但不应将生日信息误作个人新闻。",
+              "impact": "影迷社区、品牌账号和影视资料库可围绕作品回顾形成短期内容热度。",
+              "source": {
+                "label": "AP News",
+                "href": "https://apnews.com/article/18ab4a8c28374d19b516124f7dabf666"
+              }
+            },
+            {
+              "date": "2026-11-06",
+              "title": "年末流媒体与电影奖季前的档期竞争仍由明星与既有 IP 主导",
+              "why": "本周没有检索到更高信源等级、可独立证实的突发全球名人事件。",
+              "impact": "对内容团队而言，应优先跟踪作品发布、官方奖项和当事人公开声明。",
+              "source": {
+                "label": "AP Entertainment",
+                "href": "https://apnews.com/entertainment"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研最新进展",
+          "items": [
+            {
+              "date": "2026-11",
+              "title": "E4512 III 期试验发表早期 ALK 阳性 NSCLC 的 crizotinib 研究",
+              "why": "这是随机 III 期证据，研究术后辅助 crizotinib 与观察或安慰剂的比较。",
+              "impact": "结果须结合完整论文、监管标签和专业团队判断；本条仅为研究信息，不构成个人医疗建议。",
+              "source": {
+                "label": "PubMed / The Lancet Respiratory Medicine",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42641639/"
+              }
+            },
+            {
+              "date": "2026-04-02",
+              "title": "UCLH 启动 adagrasib 加标准一线治疗的晚期 NSCLC 研究",
+              "why": "试验考察在一线免疫治疗和化疗基础上加入靶向药，能否延缓疾病进展。",
+              "impact": "仍是进行中的临床研究；疗效和安全性结论应等待预设终点读出。",
+              "source": {
+                "label": "NIHR UCLH Biomedical Research Centre",
+                "href": "https://www.uclhospitals.brc.nihr.ac.uk/news/uclh-recruits-first-european-participant-advanced-phase-lung-cancer-trial"
+              }
+            },
+            {
+              "date": "2026-10",
+              "title": "早期肺癌围手术期精准治疗的证据继续向分子分型靠拢",
+              "why": "新近 III 期研究提示辅助治疗问题需要以驱动基因、分期和既往治疗分层解读。",
+              "impact": "这是研究趋势解读；不能替代指南、病理分型或个体化医疗决策。",
+              "source": {
+                "label": "PubMed E4512 记录",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42641639/"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研中的 AI 动态",
+          "items": [
+            {
+              "date": "2026-11",
+              "title": "多中心队列用 AI 评估新辅助免疫化疗后的 NSCLC 病理反应",
+              "why": "研究报告国际多中心队列，目标是辅助主要病理反应评估。",
+              "impact": "属多中心验证研究，仍需前瞻性工作流和患者结局证据，不能据此改变治疗。",
+              "source": {
+                "label": "PubMed / Lung Cancer",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42715648/"
+              }
+            },
+            {
+              "date": "2026-10-21",
+              "title": "生成式 AI 肺穿刺导航系统报告多中心随机试验",
+              "why": "npj Digital Medicine 文章描述 CBCT 引导肺活检导航的临床适用性验证。",
+              "impact": "应重点审阅预设终点、操作者差异、不良事件与真实世界推广条件。",
+              "source": {
+                "label": "npj Digital Medicine",
+                "href": "https://www.nature.com/articles/s41746-026-03355-1"
+              }
+            },
+            {
+              "date": "2026-03",
+              "title": "LungIMPACT 随机试验提示 AI 胸片优先级排序未改善关键临床结局",
+              "why": "阴性临床试验提醒：诊断模型表现不自动转化为患者路径收益。",
+              "impact": "医疗 AI 部署需把算法、流程重设计和临床结局一并前瞻性评估。",
+              "source": {
+                "label": "Nature Medicine",
+                "href": "https://www.nature.com/articles/s41591-026-04253-5"
+              }
+            }
+          ]
+        }
+      ],
+      "followups": [
+        "AI 基础设施投入何时能以现金流和生产率而非估值叙事验证？",
+        "利率预期变化将怎样传导至新加坡的汇率、科技与融资环境？",
+        "Anthropic 的科研合作该如何衡量可复现性与真实研发效率？",
+        "年末流媒体档期中，哪些官方发布与奖项信号最值得跟踪？",
+        "E4512 III 期研究的入组条件、终点与长期随访意味着什么？",
+        "adagrasib 一线联合研究的预设终点和竞争格局如何解读？",
+        "肺癌病理 AI 的外部验证、校准与临床效益应如何分别审查？"
+      ]
+    },
     {
       "date": "2026-11-03",
       "title": "工作日晨间简报｜新加坡天气、全球市场、AI 与肺癌科研",

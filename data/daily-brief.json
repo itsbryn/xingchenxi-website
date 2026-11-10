@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "signal": "xingchenxi is becoming a living Company OS: website, IP, research workflows, and operating memory now move through one visible system.",
   "year": "2026",
   "year_terms": [
@@ -101,6 +101,242 @@
     }
   ],
   "morning_briefs": [
+    {
+      "date": "2026-11-10",
+      "title": "工作日晨间简报｜新加坡雷雨、市场、AI 与肺癌科研",
+      "summary": "新加坡今天闷热、午后至夜间雷雨概率很高；全球市场关注油价、利率与 AI 估值的再定价，肺癌板块出现多项近期发表的随机或早期临床研究，医疗结论仍须由完整证据与专业团队解读。",
+      "tags": [
+        "morning-brief",
+        "singapore-inferred",
+        "markets",
+        "ai",
+        "lung-cancer"
+      ],
+      "weather": {
+        "city": "新加坡（根据系统 locale/Asia/Singapore 时区推断，非已确认偏好；可更新城市偏好）",
+        "temperature": "23.3–31.7°C；07:45 约 24.4°C、体感约 29.3°C，湿度 99%。",
+        "feels_like": "闷热明显；适合轻薄、速干衣物，室内空调环境可备薄外套。",
+        "precipitation": "当前多云；下午至晚间降水概率最高 98%，全天预报约 17.5 mm，16:00–19:00 风险最高，建议带伞并预留通勤时间。",
+        "wind": "最大风速约 11.2 km/h；雷雨时请留意能见度、湿滑路面与局地阵风。",
+        "air_quality": "07:00 US AQI 55、PM2.5 8.7 μg/m³，属中等；一般户外活动可照常，敏感人群可按自身情况减少长时间高强度暴露。",
+        "advice": "重点防雨、防晒和补水；天气与空气质量来自 Open-Meteo 模型/汇总数据，局地降雨和实时状况可能变化。"
+      },
+      "categories": [
+        {
+          "name": "全球财经新闻",
+          "items": [
+            {
+              "date": "2026-11-09",
+              "title": "油价回落带动美股反弹，但科技股分化仍在",
+              "why": "AP 报道称油价走低后美股收复上周大部分跌幅，Nvidia 仍走弱，显示风险偏好尚未全面修复。",
+              "impact": "能源价格、AI 资本开支回报与大型科技股估值仍可能共同放大跨市场波动。",
+              "source": {
+                "label": "AP News",
+                "href": "https://apnews.com/article/d938f8e6ff42b3706e1d36e6245ec56b"
+              }
+            },
+            {
+              "date": "2026-11-09",
+              "title": "美元在强劲就业数据后的高位附近回落",
+              "why": "Reuters 报道美元指数小幅走低，但此前就业数据强化了较高利率预期。",
+              "impact": "新加坡企业可关注美元、融资成本和进口能源价格的联动，而不是仅看单日汇率。",
+              "source": {
+                "label": "Reuters / Euronext",
+                "href": "https://live.euronext.com/en/financial-news/dollar-nudges-lower-ai-mideast-worries-ease"
+              }
+            },
+            {
+              "date": "2026-10-29",
+              "title": "欧洲央行维持利率不变，警示能源冲击的双向风险",
+              "why": "ECB 指出能源价格上行同时抬升通胀风险、压低增长前景，并将继续按数据逐次决策。",
+              "impact": "欧洲需求、全球融资条件和能源通胀仍是出口与跨境投资的重要变量。",
+              "source": {
+                "label": "European Central Bank",
+                "href": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html"
+              }
+            },
+            {
+              "date": "2026-10-13",
+              "title": "IMF 预计全球增长放缓且分化扩大",
+              "why": "IMF WEO 预计 2026 年全球增长 3.1%、通胀 4.7%，并提示 AI 投资重估和地缘冲突等下行风险。",
+              "impact": "AI 受益经济体与能源进口经济体之间的表现差距可能继续扩大。",
+              "source": {
+                "label": "IMF World Economic Outlook",
+                "href": "https://www.imf.org/en/Publications/WEO/Issues/2026/10/13/world-economic-outlook-october-2026"
+              }
+            }
+          ]
+        },
+        {
+          "name": "AI 最新重大事件",
+          "items": [
+            {
+              "date": "2026-11-09",
+              "title": "ChatGPT Enterprise 上架 AWS Marketplace",
+              "why": "OpenAI 宣布企业客户可通过既有 AWS 采购与计费路径获取 ChatGPT Enterprise。",
+              "impact": "企业级 AI 的采购、合规审查与云平台生态整合将更紧密。",
+              "source": {
+                "label": "OpenAI News",
+                "href": "https://openai.com/news/?display=list"
+              }
+            },
+            {
+              "date": "2026-11-05",
+              "title": "OpenAI 发布面向授权安全工作的 GPT-6 Cyber",
+              "why": "公告将模型定位为发现可利用漏洞和协助修复的网络安全能力，并强调授权范围。",
+              "impact": "安全团队应同步评估能力提升、访问控制、审计和双重用途风险。",
+              "source": {
+                "label": "OpenAI Product News",
+                "href": "https://openai.com/news/product-releases/?display=list"
+              }
+            },
+            {
+              "date": "2026-11-04",
+              "title": "OpenAI 宣布拟收购 Pierre Computer Company",
+              "why": "公告称交易旨在扩展 Codex 用于构建、理解和审查代码的工具能力。",
+              "impact": "开发者工具链的整合速度可能加快；交易完成与产品路线仍需持续跟踪。",
+              "source": {
+                "label": "OpenAI Newsroom",
+                "href": "https://openai.com/news/company-announcements/"
+              }
+            },
+            {
+              "date": "2026-11-05",
+              "title": "澳大利亚高校推进 AI-native 教育合作",
+              "why": "OpenAI 报告高校扩展 ChatGPT 使用并将 AI 融入教学，以培养 AI 时代技能。",
+              "impact": "教育场景的评价方式、数据治理与学术诚信机制需要同步演进。",
+              "source": {
+                "label": "OpenAI News",
+                "href": "https://openai.com/news/?display=list"
+              }
+            }
+          ]
+        },
+        {
+          "name": "全球名人最新讯息",
+          "items": [
+            {
+              "date": "2026-11-09",
+              "title": "AP 发布 11 月 15–21 日国际名人生日周历",
+              "why": "名单包括 Martin Scorsese、Danny DeVito、RuPaul、Rachel McAdams 等，属于可核验的文化内容排期信息。",
+              "impact": "品牌和内容团队可围绕作品回顾、官方致敬与档案内容安排短期选题，不宜夸大为突发个人新闻。",
+              "source": {
+                "label": "AP News",
+                "href": "https://apnews.com/article/740f17325d140c33d977981fc9bb4ef3"
+              }
+            },
+            {
+              "date": "2026-11-02",
+              "title": "本周生日节点覆盖 Demi Moore、Ryan Gosling 与 Leonardo DiCaprio",
+              "why": "AP 的当周生日周历提供了可复核的影视文化日历。",
+              "impact": "适合做作品、奖项与职业历程回顾；生日本身不是商业或健康方面的新闻。",
+              "source": {
+                "label": "AP News",
+                "href": "https://apnews.com/article/18ab4a8c28374d19b516124f7dabf666"
+              }
+            },
+            {
+              "date": "2026-11-10",
+              "title": "今日高可信全球娱乐突发事件有限，建议以官方发布为准",
+              "why": "本次检索未发现可由当事人或一线媒体独立确认、且重要性高于常规文化日历的新增全球名人事件。",
+              "impact": "避免以社交平台传言驱动选题；优先关注作品发行、官方奖项、巡演与当事人声明。",
+              "source": {
+                "label": "AP Entertainment",
+                "href": "https://apnews.com/entertainment"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研最新进展",
+          "items": [
+            {
+              "date": "2026-11-04",
+              "title": "围手术期 ivonescimab 的 II 期 NSCLC 研究发表",
+              "why": "Nature Medicine 刊出可切除 NSCLC 的 II 期研究；证据级别为早期临床研究。",
+              "impact": "需结合研究设计、长期生存、安全性与后续随机验证解读，不能替代个体化治疗决策。",
+              "source": {
+                "label": "PubMed / Nature Medicine",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42982996/"
+              }
+            },
+            {
+              "date": "2026-11-02",
+              "title": "早期 NSCLC 的 SABR 对手术模拟目标试验报告",
+              "why": "JCO 报告为模拟目标试验而非随机对照；肺癌特异死亡的绝对风险差置信区间跨越零。",
+              "impact": "观察性因果推断可提供线索，但仍不能等同于随机试验或改变临床标准。",
+              "source": {
+                "label": "PubMed / Journal of Clinical Oncology",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42970669/"
+              }
+            },
+            {
+              "date": "2026-11",
+              "title": "E4512 III 期试验发表早期 ALK 阳性 NSCLC 的辅助 crizotinib 研究",
+              "why": "该文为随机、多中心 III 期试验，评估切除后早期 ALK 阳性 NSCLC 的无病生存。",
+              "impact": "属于较高等级研究证据，但完整获益、毒性、监管标签与指南定位仍应由专业团队综合判断。",
+              "source": {
+                "label": "PubMed / The Lancet Respiratory Medicine",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42641639/"
+              }
+            },
+            {
+              "date": "2026-10-26",
+              "title": "PANKU-Lung01 报告 EGFR 突变 NSCLC 的 III 期比较",
+              "why": "Lancet 发表多中心随机 III 期研究，比较 iza-bren 与铂类化疗用于三代 EGFR TKI 后进展人群。",
+              "impact": "研究结果需要与入组人群、可及性和不良事件一并审读，不构成个人医疗建议。",
+              "source": {
+                "label": "PubMed / The Lancet",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42933461/"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研中的 AI 动态",
+          "items": [
+            {
+              "date": "2026-09-13",
+              "title": "I3LUNG 以多模态真实世界数据评估 NSCLC 免疫治疗决策支持",
+              "why": "Nature Medicine 报道纳入 2,396 人的国际真实世界多模态 AI 研究，涵盖临床、血液、CT、数字病理与基因组数据。",
+              "impact": "外部可用性和临床工作流价值仍需前瞻性验证；模型性能不等于治疗获益。",
+              "source": {
+                "label": "Nature Medicine",
+                "href": "https://www.nature.com/articles/s41591-026-04488-2"
+              }
+            },
+            {
+              "date": "2026-10-21",
+              "title": "生成式 AI 肺穿刺导航系统报告多中心随机试验",
+              "why": "npj Digital Medicine 文章描述 CBCT 引导肺活检导航的临床适用性验证。",
+              "impact": "应重点审阅预设终点、操作者差异、不良事件与真实世界推广条件；并非自动适用于全部中心。",
+              "source": {
+                "label": "npj Digital Medicine",
+                "href": "https://www.nature.com/articles/s41746-026-03355-1"
+              }
+            },
+            {
+              "date": "2026-03",
+              "title": "LungIMPACT 随机试验未显示 AI 胸片优先级排序改善关键临床结局",
+              "why": "随机对照研究提醒：诊断模型的排序能力不必然转化为更快 CT 或更佳患者路径。",
+              "impact": "医疗 AI 的评估应同时衡量算法、流程、资源配置与患者结局，不能只看 AUC。",
+              "source": {
+                "label": "Nature Medicine",
+                "href": "https://www.nature.com/articles/s41591-026-04253-5"
+              }
+            }
+          ]
+        }
+      ],
+      "followups": [
+        "油价回落能否持续，及其对亚洲通胀和新加坡企业成本的传导？",
+        "AI 投资回报与利率预期如何共同改变科技资产估值？",
+        "企业通过云市场采购生成式 AI 时，如何设置数据、访问与审计边界？",
+        "哪些官方电影、音乐和奖项日程值得用于 11 月内容策划？",
+        "E4512 与 PANKU-Lung01 的人群、终点和安全性该如何分别阅读？",
+        "肺癌多模态 AI 如何完成外部验证、校准和前瞻性临床效益评估？"
+      ]
+    },
     {
       "date": "2026-11-09",
       "title": "工作日晨间简报｜新加坡雨日、市场、AI 与肺癌科研",

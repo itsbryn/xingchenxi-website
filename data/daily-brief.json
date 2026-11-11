@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "signal": "xingchenxi is becoming a living Company OS: website, IP, research workflows, and operating memory now move through one visible system.",
   "year": "2026",
   "year_terms": [
@@ -101,6 +101,242 @@
     }
   ],
   "morning_briefs": [
+    {
+      "date": "2026-11-11",
+      "title": "工作日晨间简报｜新加坡闷热有雨、利率与 AI、肺癌研究",
+      "summary": "新加坡今早潮湿有雾，午后降雨概率高；市场聚焦通胀、利率与 AI 投资重估，肺癌领域有近期 III 期和 AI 多中心研究更新。医疗内容仅作研究信息整理，不构成个人医疗建议。",
+      "tags": [
+        "morning-brief",
+        "singapore-inferred",
+        "markets",
+        "ai",
+        "lung-cancer"
+      ],
+      "weather": {
+        "city": "新加坡（根据系统时区 Asia/Singapore 推断，非已确认偏好；可更新城市偏好）",
+        "temperature": "23.5–32.3°C；08:00 约 24.6°C、体感 30.3°C、湿度 98%。",
+        "feels_like": "闷热潮湿；宜选轻薄、速干衣物，室内空调环境可备薄外套。",
+        "precipitation": "当前有雾；今日最高降水概率 98%，预报累计约 7.3 mm，建议随身带伞并为通勤预留时间。",
+        "wind": "最大风速约 9.3 km/h；降雨时留意能见度、湿滑路面和局地阵风。",
+        "air_quality": "08:00 US AQI 65、PM2.5 15.4 μg/m³；一般活动可照常，敏感人群可按自身情况减少长时间高强度暴露。",
+        "advice": "重点防雨、防晒和补水。天气与空气质量来自 Open-Meteo 模型/汇总数据，局地实况可能变化。"
+      },
+      "categories": [
+        {
+          "name": "全球财经新闻",
+          "items": [
+            {
+              "date": "2026-11-10",
+              "title": "美国通胀与利率路径仍是全球资产定价主线",
+              "why": "美联储副主席 Bowman 指出通胀压力仍在，并称科技股估值和 AI 融资风险正被投资者重新评估。",
+              "impact": "美元、成长股估值、企业融资成本及亚洲风险资产对后续通胀数据更敏感。",
+              "source": {
+                "label": "Federal Reserve",
+                "href": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm"
+              }
+            },
+            {
+              "date": "2026-11-10",
+              "title": "股市在油价回落后反弹，AI 投资不确定性仍令科技股波动",
+              "why": "Reuters 市场报道显示油价走低支撑风险偏好，市场同时等待美国 CPI，并继续消化 AI 相关资本开支与融资的不确定性。",
+              "impact": "能源、通胀预期和高估值科技资产之间的联动仍可能放大日内波动。",
+              "source": {
+                "label": "Reuters / Devdiscourse",
+                "href": "https://www.devdiscourse.com/article/international/4004417-global-markets-stocks-climb-as-oil-prices-dip-heading-into-us-cpi-print"
+              }
+            },
+            {
+              "date": "2026-10-28",
+              "title": "FOMC 维持联邦基金利率目标区间 3.75%–4.00%",
+              "why": "美联储声明认为经济仍在扩张而通胀偏高，政策将依赖后续数据。",
+              "impact": "全球融资条件短期难以显著放松，跨境投资需同时观察就业、PCE 与能源价格。",
+              "source": {
+                "label": "Federal Reserve FOMC",
+                "href": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+              }
+            },
+            {
+              "date": "2026-10-13",
+              "title": "IMF 预计 2026 年全球增长放缓至 3.1%",
+              "why": "IMF 10 月 WEO 同时提示冲突、贸易摩擦、财政脆弱性和 AI 投资预期重估等下行风险。",
+              "impact": "产业链、出口需求和资本流动分化可能延续；AI 投资既是上行机会也是估值风险来源。",
+              "source": {
+                "label": "IMF World Economic Outlook",
+                "href": "https://www.imf.org/en/Publications/WEO/Issues/2026/10/13/world-economic-outlook-october-2026"
+              }
+            }
+          ]
+        },
+        {
+          "name": "AI 最新重大事件",
+          "items": [
+            {
+              "date": "2026-11-10",
+              "title": "Anthropic 启动拟议 IPO 路演",
+              "why": "公司公告显示其启动 A 类普通股拟议首次公开发行路演。",
+              "impact": "头部模型公司资本化进程加速，算力、企业订阅与监管披露将获更多市场关注。",
+              "source": {
+                "label": "Anthropic",
+                "href": "https://www.anthropic.com/news/announcements"
+              }
+            },
+            {
+              "date": "2026-11-09",
+              "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2",
+              "why": "官方公告将新模型定位于编码、金融与科学等高难度任务。",
+              "impact": "企业在模型选型时需并行评估性能、成本、数据边界与可审计性，而非只看榜单。",
+              "source": {
+                "label": "Anthropic",
+                "href": "https://www.anthropic.com/news/announcements"
+              }
+            },
+            {
+              "date": "2026-11-10",
+              "title": "Google 与 Adobe 扩展生成式 AI 工作流合作",
+              "why": "Google Cloud 公布将把 Adobe 工具与 Google Workspace、Gemini、Gemini Enterprise 和搜索 AI Mode 扩展整合。",
+              "impact": "创意和知识工作流将更深嵌入企业套件，治理重点转向版权、数据权限和人工复核。",
+              "source": {
+                "label": "Google Cloud Press Corner",
+                "href": "https://www.googlecloudpresscorner.com/artificial-intelligence?l=100"
+              }
+            },
+            {
+              "date": "2026-11-05",
+              "title": "OpenAI 报告澳大利亚高校推进 AI-native 教育",
+              "why": "OpenAI 将高校合作描述为把 AI 工具与课程及就业技能培养结合的尝试。",
+              "impact": "教育场景需同步建立测评、学术诚信和数据治理机制，成效仍待独立评估。",
+              "source": {
+                "label": "OpenAI Newsroom",
+                "href": "https://openai.com/news/company-announcements/"
+              }
+            }
+          ]
+        },
+        {
+          "name": "全球名人最新讯息",
+          "items": [
+            {
+              "date": "2026-11-10",
+              "title": "哈里王子与梅根在布鲁塞尔出席儿童网络安全活动",
+              "why": "AP 报道两人公开露面，哈里呼吁科技公司提高有关儿童内容问题的透明度。",
+              "impact": "名人公共议题参与令儿童在线安全和平台责任获得更高传播度。",
+              "source": {
+                "label": "AP News",
+                "href": "https://apnews.com/article/245d1eed836b1293822ee50fc3c69216"
+              }
+            },
+            {
+              "date": "2026-11-10",
+              "title": "Michael Jackson《Smooth Criminal》演出服亮相纽约预展",
+              "why": "Reuters Entertainment 的当日图片报道记录了该收藏品的公开展示。",
+              "impact": "音乐遗产、收藏品与影像档案仍具强内容策划和文化商业价值。",
+              "source": {
+                "label": "Reuters Entertainment",
+                "href": "https://www.reutersconnect.com/collection/entertainment-coverage"
+              }
+            },
+            {
+              "date": "2026-11-09",
+              "title": "AP 发布 11 月 15–21 日名人生日周历",
+              "why": "周历包括 Martin Scorsese、Allison Janney 等可核验文化节点。",
+              "impact": "适合安排作品回顾和官方致敬内容；这属于文化日历而非个人突发新闻。",
+              "source": {
+                "label": "AP News",
+                "href": "https://apnews.com/article/740f17325d140c33d977981fc9bb4ef3"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研最新进展",
+          "items": [
+            {
+              "date": "2026-11-10",
+              "title": "新一代 KRAS G12C 抑制剂 divarasib 报告 III 期进展",
+              "why": "Nature Medicine 研究亮点称，III 期数据中 divarasib 的无进展生存期优于一代 KRAS G12C 抑制剂。",
+              "impact": "属于治疗序列的重要研究信号；总生存、安全性、适用人群和监管状态仍须结合原始完整证据解读。",
+              "source": {
+                "label": "Nature Medicine",
+                "href": "https://www.nature.com/articles/d41591-026-00057-9"
+              }
+            },
+            {
+              "date": "2026-11-07",
+              "title": "HERON-Lung01 报告 EGFR TKI 后进展人群的 III 期中期分析",
+              "why": "Lancet 发表随机开放标签 III 期研究，ruzaltatug rezetecan 的盲态独立评估 PFS 为 8.3 个月，对照化疗为 5.4 个月。",
+              "impact": "证据等级较高，但毒性、长期获益、可及性及地区人群外推仍需专业团队综合判断。",
+              "source": {
+                "label": "PubMed / The Lancet",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42933457/"
+              }
+            },
+            {
+              "date": "2026-11-06",
+              "title": "OptiTROP-Lung06 提示 sacituzumab tirumotecan 联合 pembrolizumab 的潜在疗效",
+              "why": "Nature Reviews Clinical Oncology 总结了在中国开展的 455 例 III 期 PD-L1 阴性非鳞 NSCLC 研究。",
+              "impact": "研究发现不等于普遍可用的治疗标准，需看原始论文、毒性和各地监管/指南定位。",
+              "source": {
+                "label": "Nature Reviews Clinical Oncology",
+                "href": "https://www.nature.com/articles/s41571-026-01232-0"
+              }
+            },
+            {
+              "date": "2026-11-04",
+              "title": "围手术期 ivonescimab II 期研究发表",
+              "why": "该非随机、非比较 II 期试验在可切除 NSCLC 中评估单药或联合化疗方案。",
+              "impact": "是早期临床证据，需经随机对照与长期生存随访验证，不能替代个人医疗建议。",
+              "source": {
+                "label": "Nature Medicine",
+                "href": "https://www.nature.com/articles/s41591-026-04745-4"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研中的 AI 动态",
+          "items": [
+            {
+              "date": "2026-11",
+              "title": "多中心队列评估 AI 判读新辅助化免后病理反应",
+              "why": "《Lung Cancer》发表国际多中心队列研究，聚焦 AI 对 NSCLC 新辅助治疗后病理反应的评估。",
+              "impact": "属于验证性研究线索；模型的外部泛化、校准和临床决策获益仍待前瞻性检验。",
+              "source": {
+                "label": "PubMed / Lung Cancer",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42715648/"
+              }
+            },
+            {
+              "date": "2026-10-21",
+              "title": "生成式 AI 肺穿刺导航系统报告多中心随机试验",
+              "why": "npj Digital Medicine 描述 CBCT 引导肺活检导航系统 GPS-Lung 的随机对照临床适用性验证。",
+              "impact": "应审阅预设终点、并发症、操作者差异和部署条件；单项研究不能自动外推至所有中心。",
+              "source": {
+                "label": "npj Digital Medicine",
+                "href": "https://www.nature.com/articles/s41746-026-03355-1"
+              }
+            },
+            {
+              "date": "2026-09-13",
+              "title": "I3LUNG 发布 2,396 例真实世界多模态免疫治疗决策支持研究",
+              "why": "Nature Medicine 的国际研究整合临床、血液、CT、数字病理和基因组数据，并报告可解释 AI 工具的可用性研究。",
+              "impact": "作者仍在进行前瞻性静默验证并计划务实随机试验，当前不应把模型性能等同于患者获益。",
+              "source": {
+                "label": "Nature Medicine",
+                "href": "https://www.nature.com/articles/s41591-026-04488-2"
+              }
+            }
+          ]
+        }
+      ],
+      "followups": [
+        "美国 CPI、PCE 与就业数据将怎样改变 12 月利率预期？",
+        "油价回落能否持续，并如何传导至新加坡企业成本？",
+        "AI 资本开支、融资条件与科技估值的重新定价会如何演变？",
+        "企业在采用 Claude、Gemini 等模型时如何设置数据和审计边界？",
+        "divarasib、HERON-Lung01 与 OptiTROP-Lung06 的人群和终点有何区别？",
+        "肺癌 AI 的外部验证、前瞻性静默试验和患者结局应怎样评估？"
+      ]
+    },
     {
       "date": "2026-11-10",
       "title": "工作日晨间简报｜新加坡雷雨、市场、AI 与肺癌科研",

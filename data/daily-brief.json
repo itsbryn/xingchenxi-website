@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "signal": "xingchenxi is becoming a living Company OS: website, IP, research workflows, and operating memory now move through one visible system.",
   "year": "2026",
   "year_terms": [
@@ -101,6 +101,212 @@
     }
   ],
   "morning_briefs": [
+    {
+      "date": "2026-11-13",
+      "title": "工作日晨间简报｜新加坡强降雨、市场波动与肺癌研究",
+      "summary": "新加坡清晨潮湿有雾，午后至傍晚强降雨风险很高；全球市场继续重估通胀、利率与 AI 资本开支，肺癌领域有近期 III 期治疗研究和多中心 AI 研究更新。医疗内容仅作研究信息整理，不构成个人医疗建议。",
+      "tags": [
+        "morning-brief",
+        "singapore-inferred",
+        "markets",
+        "ai",
+        "lung-cancer"
+      ],
+      "weather": {
+        "city": "新加坡（根据系统时区 Asia/Singapore 推断，非已确认偏好；可更新城市偏好）",
+        "temperature": "24.2–30.8°C；07:45 约24.7°C、体感30.4°C、湿度100%。",
+        "feels_like": "闷热潮湿；适合轻薄速干衣物，室内空调环境可备薄外套。",
+        "precipitation": "当前有雾、未录得降水；今日最高降水概率100%，预报累计约20.8 mm，14:00 后风险显著上升。",
+        "wind": "最大风速约12.1 km/h；当前约5.3 km/h。降雨时注意湿滑路面、能见度与局地阵风。",
+        "air_quality": "07:00 US AQI 67、PM2.5 12.0 μg/m³、PM10 13.5 μg/m³；一般活动可照常，敏感人群可按自身情况减少长时间高强度户外暴露。",
+        "advice": "重点防雨、防晒与补水；早晚通勤带伞并预留机动时间。天气与空气质量来自 Open-Meteo 模型/汇总数据，局地实况可能变化。"
+      },
+      "categories": [
+        {
+          "name": "全球财经新闻",
+          "items": [
+            {
+              "date": "2026-11-12",
+              "title": "全球股市走弱，科技龙头领导层不确定性放大波动",
+              "why": "IMF 全球市场监测称，市场在消化科技板块的领导层风险，NVIDIA 盘前下跌被列为重要驱动之一。",
+              "impact": "AI 供应链估值、半导体指数与风险偏好仍可能联动放大；需区分公司事件与广泛盈利基本面。",
+              "source": {
+                "label": "IMF Global Markets Monitor",
+                "href": "https://www.imfconnect.org/content/dam/imf/News%20and%20Generic%20Content/GMM/archive/GMM%20November%2012%2C%202026.pdf"
+              }
+            },
+            {
+              "date": "2026-11-12",
+              "title": "美股三季度盈利总体仍高于预期，但估值敏感度上升",
+              "why": "Confluence 日评统计已披露公司的三季度每股盈利略高于此前预估、同比增幅较高。",
+              "impact": "盈利韧性为市场提供支撑，但利率、能源与高估值科技股的再定价仍会主导短期波动。",
+              "source": {
+                "label": "Confluence Daily Comment",
+                "href": "https://www.confluenceinvestment.com/wp-content/uploads/daily_Nov_12_2026.pdf"
+              }
+            },
+            {
+              "date": "2026-11-11",
+              "title": "欧洲股市相对跑赢与欧元走弱并存",
+              "why": "IMF 11 月 11 日监测转述欧洲股市受油价较弱与资金轮动支持，同时美元利差因素令欧元承压。",
+              "impact": "区域配置需同时观察能源、通胀和利差，而非将短期相对收益简单外推。",
+              "source": {
+                "label": "IMF Global Markets Monitor",
+                "href": "https://www.imfconnect.org/content/dam/imf/News%20and%20Generic%20Content/GMM/archive/GMM%20November%2011%2C%202026.pdf"
+              }
+            }
+          ]
+        },
+        {
+          "name": "AI 最新重大事件",
+          "items": [
+            {
+              "date": "2026-11-12",
+              "title": "多家前沿 AI 公司面临要求暂停新模型的诉讼",
+              "why": "Reuters 报道多个非营利组织起诉 OpenAI、Anthropic、Google、Meta 和 SpaceX 的 AI 部门，寻求阻止最前沿模型继续开发或部署。",
+              "impact": "即使诉讼结果未定，前沿模型的安全评估、责任归属与监管成本将成为企业部署的重要变量。",
+              "source": {
+                "label": "Reuters",
+                "href": "https://www.streetinsider.com/Reuters/OpenAI%2C%2BGoogle%2C%2BAnthropic%2Bhit%2Bwith%2Blawsuit%2Bseeking%2Bhalt%2Bto%2Bfrontier%2BAI%2Bdevelopment/27334731.html"
+              }
+            },
+            {
+              "date": "2026-11-09",
+              "title": "Anthropic 发布 Fable 与 Mythos 新模型",
+              "why": "公开报道显示，Anthropic 在拟议 IPO 前推出两款新模型，定位编码、推理及企业任务竞争。",
+              "impact": "企业选型应并行比较任务质量、成本、数据边界和审计能力，而非只比较单一基准。",
+              "source": {
+                "label": "Reuters coverage via Reddit link",
+                "href": "https://www.reddit.com/r/artificial/comments/1xs84k6/anthropic_unveils_new_fable_mythos_models_as/"
+              }
+            },
+            {
+              "date": "2026-11-09",
+              "title": "头部 AI 公司拟统一网站抓取退出信号",
+              "why": "行业报道称 Google、Microsoft、OpenAI 与 Anthropic 支持以 robots.txt 中单一信号表达是否允许 AI 抓取/训练。",
+              "impact": "内容权利人与企业知识库团队应复核抓取、许可和数据溯源政策；细则和实际执行仍需持续验证。",
+              "source": {
+                "label": "TechRadar",
+                "href": "https://www.techradar.com/pro/google-and-microsoft-among-those-signing-up-to-openais-plan-for-a-new-website-crawling-standard-including-opting-out-of-internet-scraping"
+              }
+            }
+          ]
+        },
+        {
+          "name": "全球名人最新讯息",
+          "items": [
+            {
+              "date": "2026-11-13",
+              "title": "Whoopi Goldberg 迎来71岁生日",
+              "why": "AP 本周名人生日周历列出该公开文化日历节点。",
+              "impact": "适合安排作品回顾或官方致敬内容；这是可核验日历信息，并非个人突发新闻。",
+              "source": {
+                "label": "AP News",
+                "href": "https://apnews.com/article/18ab4a8c28374d19b516124f7dabf666"
+              }
+            },
+            {
+              "date": "2026-11-13",
+              "title": "Joe Mantegna 迎来79岁生日",
+              "why": "AP 周历将这位演员列为当日生日人物。",
+              "impact": "为影视社区和内容排期提供低风险、可核验的文化节点。",
+              "source": {
+                "label": "AP News",
+                "href": "https://apnews.com/article/18ab4a8c28374d19b516124f7dabf666"
+              }
+            },
+            {
+              "date": "2026-11-13",
+              "title": "Chris Noth 迎来72岁生日",
+              "why": "AP 周历列出该演员的生日信息。",
+              "impact": "文化日历可用于轻量内容策划；不应将生日条目解读为商业合作或个人动态。",
+              "source": {
+                "label": "AP News",
+                "href": "https://apnews.com/article/18ab4a8c28374d19b516124f7dabf666"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研最新进展",
+          "items": [
+            {
+              "date": "2026-11-06",
+              "title": "OptiTROP-Lung06 报告 PD-L1 阴性晚期非鳞 NSCLC 的新组合证据",
+              "why": "Nature Reviews Clinical Oncology 报道 III 期 OptiTROP-Lung06 结果已在 ESMO 2026 报告并与 NEJM 发表同步。",
+              "impact": "III 期证据信号较强，但人群适用性、安全性、绝对获益及各地监管/指南定位仍应完整审阅。",
+              "source": {
+                "label": "Nature Reviews Clinical Oncology",
+                "href": "https://www.nature.com/articles/s41571-026-01232-0"
+              }
+            },
+            {
+              "date": "2026-11",
+              "title": "E4512 发表早期 ALK 阳性 NSCLC 的 crizotinib III 期研究",
+              "why": "PubMed 收录该多中心随机 III 期试验，比较切除后 crizotinib 与观察/安慰剂。",
+              "impact": "这是高等级研究设计，但长期结局、毒性与治疗排序仍须结合全文和指南解读，不能直接转为个人用药建议。",
+              "source": {
+                "label": "PubMed / Lancet Respiratory Medicine",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42641639/"
+              }
+            },
+            {
+              "date": "2026-11-07",
+              "title": "PANKU-Lung01 报告 EGFR 突变晚期 NSCLC 的 PFS 改善",
+              "why": "ASCO Post 报道该 III 期试验在三代 EGFR TKI 后进展人群中比较双特异 ADC 与含铂化疗。",
+              "impact": "结果为耐药后治疗路径提供候选证据，但交叉试验比较、毒性管理和监管状态仍需核对。",
+              "source": {
+                "label": "The ASCO Post",
+                "href": "https://ascopost.com/news/november-2026/izalontamab-brengitecan-improves-progression-free-survival-in-egfr-mutated-advanced-nonsquamous-nsclc/"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研中的 AI 动态",
+          "items": [
+            {
+              "date": "2026-11",
+              "title": "多中心研究评估 AI 辅助肿瘤床间质定量与结局的关联",
+              "why": "Lung Cancer 发表多中心研究，比较 AI 辅助间质定量与不同治疗背景下的病理反应和生存关联。",
+              "impact": "这是关联性、多中心研究；算法关联不等于改善患者结局，仍需外部及前瞻性临床验证。",
+              "source": {
+                "label": "PubMed / Lung Cancer",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42691847/"
+              }
+            },
+            {
+              "date": "2026-11-09",
+              "title": "深度神经网络用于肺结节激光内窥镜分子影像评估",
+              "why": "Scientific Reports 新发表研究聚焦用深度神经网络分析激光内窥镜分子影像以评估肺结节。",
+              "impact": "属于技术/诊断研究信号；诊断准确性、可推广性和对实际诊疗路径的影响需要独立验证。",
+              "source": {
+                "label": "Scientific Reports",
+                "href": "https://www.nature.com/articles/s41598-026-78494-2"
+              }
+            },
+            {
+              "date": "2026-08-24",
+              "title": "LUCAID 提出面向肺癌精准病理的多模态智能体框架",
+              "why": "预印本聚焦整合形态、免疫组化与分子特征，并明确承认现有工具普遍缺少前瞻性临床验证。",
+              "impact": "它是方法学候选而非临床定论；应优先追踪外部测试、前瞻性比较和真实工作流收益。",
+              "source": {
+                "label": "arXiv preprint",
+                "href": "https://arxiv.org/abs/2608.23803"
+              }
+            }
+          ]
+        }
+      ],
+      "followups": [
+        "AI 资本开支重估会怎样传导到半导体、能源与利率市场？",
+        "前沿模型安全诉讼可能如何改变企业采购和治理要求？",
+        "统一 AI 抓取退出信号将如何影响内容授权与知识库建设？",
+        "OptiTROP-Lung06 的绝对获益、毒性和适用人群是什么？",
+        "E4512 会怎样影响早期 ALK 阳性 NSCLC 的辅助治疗研究路径？",
+        "肺癌病理 AI 从多中心关联走到前瞻性临床获益需哪些证据？"
+      ]
+    },
     {
       "date": "2026-11-12",
       "title": "工作日晨间简报｜新加坡雨天、利率与 AI、肺癌研究",

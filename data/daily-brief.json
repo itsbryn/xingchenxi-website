@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-16",
   "signal": "xingchenxi is becoming a living Company OS: website, IP, research workflows, and operating memory now move through one visible system.",
   "year": "2026",
   "year_terms": [
@@ -101,6 +101,217 @@
     }
   ],
   "morning_briefs": [
+    {
+      "date": "2026-11-16",
+      "title": "工作日晨间简报｜新加坡雨天、AI 科学与肺癌证据更新",
+      "summary": "新加坡今晨闷热多云，全天强降雨概率高；市场需平衡中国贸易、全球增长与科技估值信号。AI 进入科学研究和支付代理新阶段；肺癌部分聚焦已发表 III 期证据、在研试验与多模态 AI 的临床验证边界。医疗内容仅作科研信息整理，不构成个人医疗建议。",
+      "tags": [
+        "morning-brief",
+        "singapore-inferred",
+        "markets",
+        "ai",
+        "lung-cancer"
+      ],
+      "weather": {
+        "city": "新加坡（根据当前系统时区 Asia/Singapore 推断，非已确认偏好；可更新城市偏好）",
+        "temperature": "23.8–31.2°C；07:45 为 25.0°C、体感 31.0°C、相对湿度 97%。",
+        "feels_like": "闷热潮湿；宜穿轻薄速干衣物，室内空调环境可备薄外套。",
+        "precipitation": "当前多云、未录得降水；今日最高降水概率 100%，预报累计约 14.2 mm。",
+        "wind": "当前风速 1.8 km/h，日最大风速约 7.4 km/h；降雨时注意湿滑路面与局地能见度。",
+        "air_quality": "07:00 US AQI 58、PM2.5 10.0 μg/m³、PM10 10.9 μg/m³；一般活动可照常，敏感人群可按自身情况减少长时间高强度户外暴露。",
+        "advice": "通勤带伞、防水鞋套并预留机动时间；注意补水。天气与空气质量来自 Open-Meteo 模型/汇总数据，局地实况可能变化。",
+        "source": {
+          "label": "Open-Meteo Weather & Air Quality",
+          "href": "https://open-meteo.com/"
+        }
+      },
+      "categories": [
+        {
+          "name": "全球财经新闻",
+          "items": [
+            {
+              "date": "2026-11-10",
+              "title": "中国贸易顺差继续处于高位",
+              "why": "AP 报道称，中国出口增长推动其贸易顺差连续第二年超过 1 万亿美元。",
+              "impact": "全球制造业竞争、贸易摩擦与人民币/亚洲供应链预期仍是跨资产配置变量。",
+              "source": {
+                "label": "Associated Press",
+                "href": "https://apnews.com/article/0fc56d7bd8bbff86ce6672bb67691f22"
+              }
+            },
+            {
+              "date": "2026-11-04",
+              "title": "IMF 全球市场监测提示金融条件仍易受冲击",
+              "why": "IMF 最新全球市场监测汇集跨市场风险与政策信号。",
+              "impact": "利率、能源与科技股估值的联动，仍可能使风险资产波动加大。",
+              "source": {
+                "label": "IMF Global Markets Monitor",
+                "href": "https://www.imfconnect.org/content/dam/imf/News%20and%20Generic%20Content/GMM/archive/GMM%20November%204%2C%202026.pdf"
+              }
+            },
+            {
+              "date": "2026-10-13",
+              "title": "IMF 维持 2026 年全球增长 3.1%预测",
+              "why": "IMF《世界经济展望》在基准情景下给出 2026 年 3.1%、2027 年 3.4% 的全球增长预测，并提示债务、贸易与 AI 估值风险。",
+              "impact": "增长韧性并不消除尾部风险；企业应将融资成本和需求情景分开管理。",
+              "source": {
+                "label": "IMF World Economic Outlook",
+                "href": "https://www.imf.org/-/media/files/publications/weo/2026/october/english/text.pdf"
+              }
+            }
+          ]
+        },
+        {
+          "name": "AI 最新重大事件",
+          "items": [
+            {
+              "date": "2026-11-15",
+              "title": "OpenAI 发布科学博客并展示 AI 辅助理论物理工作",
+              "why": "OpenAI 上线 science blog，并发布一项借助 GPT-6 Astra 推进标准模型格点定义证明的研究叙述。",
+              "impact": "科学工作流中的可复核性、专家审阅和工具链整合将比单纯生成能力更重要。",
+              "source": {
+                "label": "OpenAI News",
+                "href": "https://openai.com/news/?display=list"
+              }
+            },
+            {
+              "date": "2026-11-13",
+              "title": "OpenAI 宣布 ChatGPT Wallet",
+              "why": "官方称该产品让 ChatGPT Work、Codex 与 dots 的代理在用户批准下完成购买。",
+              "impact": "代理支付扩展了自动化边界，也提高了授权、审计和交易风控的重要性。",
+              "source": {
+                "label": "OpenAI News",
+                "href": "https://openai.com/news/?display=list"
+              }
+            },
+            {
+              "date": "2026-11-10",
+              "title": "Anthropic 推进拟议 IPO 路演",
+              "why": "Anthropic 公告称已启动 A 类普通股拟议 IPO 的路演；此前的 S-1 仍受监管审阅。",
+              "impact": "前沿模型公司的资本开支、治理披露与商业化路径将受到更高关注。",
+              "source": {
+                "label": "Anthropic Newsroom",
+                "href": "https://www.anthropic.com/news"
+              }
+            }
+          ]
+        },
+        {
+          "name": "全球名人最新讯息",
+          "items": [
+            {
+              "date": "2026-11-14",
+              "title": "Netflix 上线 Russell Brand 相关纪录片",
+              "why": "Variety 报道《Russell Brand: Open Secret》上线，导演谈及在审判临近时寻找受访者的困难。",
+              "impact": "名人纪实内容的事实核验、平台编辑标准与法律风险仍受关注。",
+              "source": {
+                "label": "Variety",
+                "href": "https://au.variety.com/2026/tv/global/russell-brand-open-secret-netflix-director-42563/"
+              }
+            },
+            {
+              "date": "2026-11-14",
+              "title": "Lena Dunham 与 Allison Williams 谈《Girls》公众叙事变化",
+              "why": "两人在纽约活动中回顾该剧播出时遭遇的性别化批评。",
+              "impact": "旧 IP 的重评与演员/创作者直接叙事，继续影响流媒体时代的文化传播。",
+              "source": {
+                "label": "Variety",
+                "href": "https://au.variety.com/2026/tv/global/lena-dunham-girls-media-misogyny-revival-enthusiasm-42555/"
+              }
+            },
+            {
+              "date": "2026-11-15",
+              "title": "本周影视音乐人物日历",
+              "why": "AP 列出 11 月 15–21 日的行业人物节点，包括 Martin Scorsese、RuPaul、Allison Janney 等。",
+              "impact": "适合作为本周宣传、档期和文化议题的轻量观察线索，而非投资或商业预测。",
+              "source": {
+                "label": "Associated Press",
+                "href": "https://apnews.com/article/740f17325d140c33d977981fc9bb4ef3"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研最新进展",
+          "items": [
+            {
+              "date": "2026-10-25",
+              "title": "OptiTROP-Lung06 报告 PD-L1 阴性晚期非鳞 NSCLC 的 III 期中期分析",
+              "why": "NEJM 发表的随机 III 期研究显示，sacituzumab tirumotecan 加帕博利珠单抗相对化疗加帕博利珠单抗显著延长无进展生存期。",
+              "impact": "这是特定人群的已发表随机证据；总生存期和安全性等完整获益仍需结合全文与监管进展解读。",
+              "source": {
+                "label": "New England Journal of Medicine",
+                "href": "https://www.nejm.org/doi/10.1056/NEJMoa2611280"
+              }
+            },
+            {
+              "date": "2026-10-19",
+              "title": "RAS(ON) 抑制剂平台试验持续招募",
+              "why": "ClinicalTrials.gov 显示 NCT06162221 正在招募，评估 RAS 突变晚期 NSCLC 中 RMC-6236 等方案与标准治疗的组合。",
+              "impact": "属于 Ib/II 期探索，安全性、推荐剂量与初步活性不能替代确证性临床获益。",
+              "source": {
+                "label": "ClinicalTrials.gov",
+                "href": "https://clinicaltrials.gov/study/NCT06162221"
+              }
+            },
+            {
+              "date": "2026-11",
+              "title": "AI 辅助肿瘤床间质量化的多中心研究发表",
+              "why": "《Lung Cancer》收录一项多中心研究，评估 AI 辅助间质量化与新辅助治疗后病理反应、存活的关联。",
+              "impact": "关联性证据有助于形成假设；需外部验证和前瞻性临床效益研究，尚不能据此改变个人治疗。",
+              "source": {
+                "label": "PubMed PMID 42691847",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42691847/"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研中的 AI 事件或论文/临床研究动态",
+          "items": [
+            {
+              "date": "2026-09-13",
+              "title": "I³LUNG 多模态 AI 决策支持研究发表",
+              "why": "Nature Medicine 报道其真实世界多模态研究纳入 2,396 名 NSCLC 患者，整合临床、血液、CT、病理和基因组资料。",
+              "impact": "规模和多模态设计提升可用性信号，但模型泛化、工作流和前瞻性结局仍须独立验证。",
+              "source": {
+                "label": "Nature Medicine",
+                "href": "https://www.nature.com/articles/s41591-026-04488-2"
+              }
+            },
+            {
+              "date": "2026-05-29",
+              "title": "RAD-AI 放疗计划 II 期试验仍在招募",
+              "why": "ClinicalTrials.gov 显示 NCT05802186 测试 AI 指导剂量建议在肺部肿瘤 SBRT 计划中的有效性与安全性。",
+              "impact": "从算法表现走向临床工作流验证；在结果公布前，不能假定其改善患者结局。",
+              "source": {
+                "label": "ClinicalTrials.gov",
+                "href": "https://clinicaltrials.gov/study/NCT05802186"
+              }
+            },
+            {
+              "date": "2026-04",
+              "title": "LungIMPACT 随机对照试验评估 AI 胸片优先级",
+              "why": "Nature Medicine 报道随机按日分配的工作流试验，研究 AI 标记异常胸片的优先级是否缩短肺癌诊断路径时间。",
+              "impact": "该设计比回顾性准确率研究更接近临床证据，但诊断效率与最终生存获益是不同问题。",
+              "source": {
+                "label": "Nature Medicine",
+                "href": "https://www.nature.com/articles/s41591-026-04253-5"
+              }
+            }
+          ]
+        }
+      ],
+      "followups": [
+        "新加坡午后强降雨的临近预报与通勤影响",
+        "中国外贸与主要经济体贸易政策",
+        "全球利率、能源价格和科技估值联动",
+        "代理支付的授权与审计设计",
+        "OpenAI 与 Anthropic 的科学研究产品路线",
+        "OptiTROP-Lung06 的完整疗效与安全性数据",
+        "NSCLC 多模态 AI 的外部验证与前瞻性试验"
+      ]
+    },
     {
       "date": "2026-11-13",
       "title": "工作日晨间简报｜新加坡强降雨、市场波动与肺癌研究",

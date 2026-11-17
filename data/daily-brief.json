@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "signal": "xingchenxi is becoming a living Company OS: website, IP, research workflows, and operating memory now move through one visible system.",
   "year": "2026",
   "year_terms": [
@@ -101,6 +101,238 @@
     }
   ],
   "morning_briefs": [
+    {
+      "date": "2026-11-18",
+      "title": "工作日晨间简报｜新加坡强降雨预警、AI 估值波动与肺癌研究更新",
+      "summary": "新加坡今晨有雾且闷热，全天强降雨风险高；全球市场聚焦 AI 相关股票波动、美元与利率预期。AI 方面关注实时语音模型、算力基准和基础设施披露；肺癌部分覆盖 III 期 ADC 联合方案、围术期 II 期研究与多模态 AI 的临床验证边界。医疗内容仅作科研信息整理，不构成个人医疗建议。",
+      "tags": [
+        "morning-brief",
+        "singapore-inferred",
+        "markets",
+        "ai",
+        "lung-cancer"
+      ],
+      "weather": {
+        "city": "新加坡（根据当前系统时区 Asia/Singapore 推断，非已确认偏好；如不准确请更新城市偏好）",
+        "temperature": "23.1–31.5°C；07:45 为 23.7°C、体感 29.2°C、相对湿度 99%。",
+        "feels_like": "闷热潮湿；宜穿轻薄速干衣物，室内空调环境可备薄外套。",
+        "precipitation": "当前有雾；全天降水概率最高 100%，预报累计约 23.4 mm。",
+        "wind": "当前风速 1.8 km/h，日最大风速约 10.1 km/h；降雨时注意湿滑路面与局地能见度。",
+        "air_quality": "07:00 US AQI 70、PM2.5 14.8 μg/m³；一般活动可照常，敏感人群可按自身情况减少长时间高强度户外暴露。",
+        "advice": "通勤带伞、防水鞋并预留机动时间；午后和傍晚出行关注临近降雨，及时补水。天气与空气质量来自 Open-Meteo 模型/汇总数据，局地实况可能变化。",
+        "source": {
+          "label": "Open-Meteo Weather & Air Quality",
+          "href": "https://open-meteo.com/"
+        }
+      },
+      "categories": [
+        {
+          "name": "全球财经新闻",
+          "items": [
+            {
+              "date": "2026-11-17",
+              "title": "AI 股带动美股震荡",
+              "why": "AP 报道 NVIDIA 及其他 AI 相关股票引领市场下跌，标普 500 一度出现连续大跌风险。",
+              "impact": "AI 资本开支、芯片业绩与高估值成长股的联动仍会放大跨市场波动。",
+              "source": {
+                "label": "Associated Press",
+                "href": "https://apnews.com/article/stock-markets-ai-earnings-oil-4d5a35288288389d894e63e6bebe8240"
+              }
+            },
+            {
+              "date": "2026-11-18",
+              "title": "美元触及阶段高位后回落",
+              "why": "Reuters 报道美元指数触及 19 个月高点后回落；市场仍在定价美国通胀压力和利率路径。",
+              "impact": "美元、收益率与风险偏好的联动将影响新兴市场融资条件及大宗商品定价。",
+              "source": {
+                "label": "Reuters",
+                "href": "https://www.devdiscourse.com/article/international/4008615-global-markets-stocks-fall-with-nvidia-in-focus-dollar-dips"
+              }
+            },
+            {
+              "date": "2026-11-17",
+              "title": "美国零售销售增速放缓",
+              "why": "AP 报道美国 10 月零售销售环比增长 0.2%，低于 9 月增速。",
+              "impact": "消费韧性、信贷成本和年末零售季将继续影响货币政策与企业盈利预期。",
+              "source": {
+                "label": "Associated Press",
+                "href": "https://apnews.com/article/retail-sales-inflation-consumers-0f76e8e304f5560e5a3116c4fec5d6b0"
+              }
+            }
+          ]
+        },
+        {
+          "name": "AI 最新重大事件",
+          "items": [
+            {
+              "date": "2026-11",
+              "title": "OpenAI 更新实时语音模型产品线",
+              "why": "OpenAI API 变更日志列出 GPT-Realtime-2、实时翻译和实时转写能力的发布。",
+              "impact": "低延迟语音代理的产品门槛下降，但企业仍需评估数据处理、权限和质量控制。",
+              "source": {
+                "label": "OpenAI API Changelog",
+                "href": "https://developers.openai.com/api/docs/changelog"
+              }
+            },
+            {
+              "date": "2026-11-16",
+              "title": "NVIDIA 发布 Vera Rubin 的 MLPerf 结果",
+              "why": "NVIDIA 称其 Vera Rubin 平台首次参与 MLPerf 训练和端点测试，并报告面向代理推理的能效提升。",
+              "impact": "基准结果会影响数据中心采购与算力路线图，但厂商披露应结合独立复核和真实工作负载评估。",
+              "source": {
+                "label": "NVIDIA",
+                "href": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/"
+              }
+            },
+            {
+              "date": "2026-11-10",
+              "title": "Anthropic 启动拟议 IPO 路演",
+              "why": "Anthropic 官方称已为其拟议的 A 类普通股首次公开发行启动路演。",
+              "impact": "资本市场将更密切审视前沿模型公司的算力承诺、商业化速度与治理披露。",
+              "source": {
+                "label": "Anthropic",
+                "href": "https://www.anthropic.com/news/roadshow-launch"
+              }
+            },
+            {
+              "date": "2026-11-05",
+              "title": "OpenAI 公布 AI 基础设施资源披露承诺",
+              "why": "OpenAI 表示将为自有园区制定用水方案，并披露站点级用水、用电及噪声研究。",
+              "impact": "算力扩张的环境与社区透明度正成为 AI 供应链治理的可量化议题。",
+              "source": {
+                "label": "OpenAI",
+                "href": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/"
+              }
+            }
+          ]
+        },
+        {
+          "name": "全球名人最新讯息",
+          "items": [
+            {
+              "date": "2026-11-17",
+              "title": "威廉王子在孟买颁发 Earthshot 奖",
+              "why": "AP 报道五个获奖方各获 100 万英镑，用于气候解决方案；活动是威廉与凯特印度行的核心环节。",
+              "impact": "名人影响力与气候创新资金的结合，持续放大获奖项目的国际曝光及合作机会。",
+              "source": {
+                "label": "Associated Press",
+                "href": "https://apnews.com/article/india-britain-royals-prince-william-earthshot-prize-ca7f09a7254de67709750b0cb3f6ae77"
+              }
+            },
+            {
+              "date": "2026-11-17",
+              "title": "Willie Nelson 发布新书相关访谈",
+              "why": "AP 报道这位 12 次格莱美得主在 93 岁仍持续进行创作与公共表达。",
+              "impact": "资深艺人的持续创作与跨代受众连接，仍是音乐出版与巡演内容市场的重要信号。",
+              "source": {
+                "label": "Associated Press",
+                "href": "https://apnews.com/article/willie-nelson-interview-8fdf08c105ce1a315a66c952f15ec583"
+              }
+            },
+            {
+              "date": "2026-11-14",
+              "title": "Rock & Roll Hall of Fame 典礼聚焦多代艺人",
+              "why": "AP 报道 Phil Collins、Billy Idol、Wu-Tang Clan、Queen Latifah 等在 2026 入选礼上获表彰或演出。",
+              "impact": "经典音乐 IP 的纪念活动可带动目录消费、流媒体再发现与现场演出关注。",
+              "source": {
+                "label": "Associated Press",
+                "href": "https://apnews.com/article/rock-hall-fame-oasis-billy-idol-wutang-e3e0d8644d7c2a8cd0f73d60916dac11"
+              }
+            },
+            {
+              "date": "2026-11",
+              "title": "LISA 拉斯维加斯驻演进入本月档期",
+              "why": "Caesars 公告显示其 VIVA LA LISA 驻演 11 月 12–14 日及 27–29 日举行，并称为首位在拉斯维加斯驻演的 K-pop 艺人。",
+              "impact": "K-pop 的海外现场商业化继续从巡演延伸到固定场馆驻演模式。",
+              "source": {
+                "label": "Caesars Entertainment",
+                "href": "https://newsroom.caesars.com/press-releases/press-release-details/2026/LISA-ADDS-TWO-NEW-DATES-TO-HER-SOLD-OUT-LAS-VEGAS-RESIDENCY-DUE-TO-OVERWHELMING-DEMAND-VIVA-LA-LISA-AT-THE-COLOSSEUM-AT-CAESARS-PALACE--NOV-12-13-14-27-28--29-2026--2026-eGkXjvCgqE/default.aspx"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研最新进展",
+          "items": [
+            {
+              "date": "2026-11-06",
+              "title": "OptiTROP-Lung06 报告 PD-L1 阴性 NSCLC 的 III 期信号",
+              "why": "Nature Reviews Clinical Oncology 总结：455 名患者的 III 期试验比较 sacituzumab tirumotecan 加帕博利珠单抗与化免治疗。",
+              "impact": "该结果为特定晚期 NSCLC 一线方案提供高等级证据线索；具体获益、毒性和可及性仍需结合完整论文、监管与指南判断。",
+              "source": {
+                "label": "Nature Reviews Clinical Oncology",
+                "href": "https://www.nature.com/articles/s41571-026-01232-0"
+              }
+            },
+            {
+              "date": "2026-11-04",
+              "title": "围术期 ivonescimab 的 II 期研究发表",
+              "why": "PubMed 收录的 II 期试验考察可切除 NSCLC 围术期 ivonescimab 联合或不联合化疗。",
+              "impact": "这是早期临床研究，不能替代随机 III 期生存终点证据。",
+              "source": {
+                "label": "PubMed",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42982996/"
+              }
+            },
+            {
+              "date": "2026-11-02",
+              "title": "早期 NSCLC：SABR 与手术的模拟目标试验",
+              "why": "JCO 论文报告肺癌特异死亡的绝对风险差置信区间跨越零，且指出仍缺少两者直接比较的随机证据。",
+              "impact": "观察性因果推断可补充决策信息，但不能取代随机对照试验。",
+              "source": {
+                "label": "Journal of Clinical Oncology",
+                "href": "https://ascopubs.org/doi/10.1200/JCO-26-00399"
+              }
+            }
+          ]
+        },
+        {
+          "name": "肺癌科研中的 AI 事件或论文/临床研究动态",
+          "items": [
+            {
+              "date": "2026-11-17",
+              "title": "ESMO 报告多模态 AI 改善 NSCLC 生存预测",
+              "why": "ESMO AI & Digital Oncology Congress 摘要称，该模型在接受免疫治疗或化免治疗的晚期 NSCLC 中优于仅用临床数据预测 PFS。",
+              "impact": "这是会议研究信号；需要独立外部验证、校准评估和前瞻性临床效用证据。",
+              "source": {
+                "label": "ESMO",
+                "href": "https://www.esmo.org/insights-by-esmo/all-news/a-multimodal-ai-model-shows-promise-in-predicting-survival-in-non-small-cell-lung-cancer"
+              }
+            },
+            {
+              "date": "2026-11-03",
+              "title": "多中心研究评估 AI 辅助肿瘤床间质定量",
+              "why": "PubMed 收录研究纳入五家意大利中心 71 名 IIIB–IV 期 NSCLC 患者，比较不同新辅助治疗后的 AI 辅助间质量化。",
+              "impact": "样本量有限且为回顾性研究；关联结果不能直接证明改善临床结局。",
+              "source": {
+                "label": "PubMed",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/42691847/"
+              }
+            },
+            {
+              "date": "2026-10",
+              "title": "Nature Medicine 评估可解释 AI 临床决策支持",
+              "why": "论文围绕 NSCLC 的可解释 AI 决策支持工具及多模态模型的临床可用性开展评估。",
+              "impact": "临床可用性结果并不自动等于患者获益，部署前仍需跨中心、前瞻性和工作流安全验证。",
+              "source": {
+                "label": "Nature Medicine",
+                "href": "https://www.nature.com/articles/s41591-026-04488-2"
+              }
+            }
+          ]
+        }
+      ],
+      "followups": [
+        "新加坡午后强降雨与通勤影响",
+        "NVIDIA 业绩与 AI 估值波动",
+        "美元和全球利率路径",
+        "实时语音代理的企业治理",
+        "AI 基础设施用水与能耗披露",
+        "OptiTROP-Lung06 完整证据与监管进展",
+        "围术期 NSCLC 免疫治疗的 III 期验证",
+        "肺癌多模态 AI 的外部验证与临床结局"
+      ]
+    },
     {
       "date": "2026-11-17",
       "title": "工作日晨间简报｜新加坡午后强降雨、科技股波动与肺癌研究更新",
